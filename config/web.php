@@ -78,6 +78,9 @@ $config = [
 
                         'OPTIONS check-user' => 'check-user',
                         'GET check-user' => 'check-user',
+
+                        'OPTIONS logout' => 'logout',
+                        'GET logout' => 'logout',
                     ],
                     'pluralize' => false,
                 ],

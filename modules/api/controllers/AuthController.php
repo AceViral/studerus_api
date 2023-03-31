@@ -70,9 +70,8 @@ class AuthController extends Controller
                          $user->getAttributes(),
                     ];
                } else {
-                    $out['user_token'] = $user->access_token;
-                    $out['username'] = $user->username;
-                    $out['email'] = $user->email;
+                    $out['ok'] = 1;
+                    $out['user'] = $user->getAttributes();
                }
 
           } else {
@@ -105,6 +104,20 @@ class AuthController extends Controller
                if ($user->isLoginBlocked()) {
                     throw new ForbiddenHttpException('Your account is blocked until ' . date("d.m.Y H:i:s", $user->login_locked_until));
                } 
+
+               // actionLogin()
+               $userSessions = Yii::$app->session->get('userSessions', []);
+               $sessionCount = count($userSessions);
+               $maxSessions = 2; // максимальное количество сессий для пользователя
+
+               if ($sessionCount >= $maxSessions) {
+               throw new ForbiddenHttpException('Maximum number of sessions reached');
+               }
+
+               $userSessions[] = session_id();
+               Yii::$app->session->set('userSessions', $userSessions);
+
+
                if (Yii::$app->security->validatePassword($password, $user->password_hash)) {
                     $user->updateFailedLoginAttempts(true);
                     $out['ok'] = 1;
@@ -135,5 +148,20 @@ class AuthController extends Controller
                throw new \yii\web\UnauthorizedHttpException();
           }
      }
+
+     public function actionLogout()
+     {
+          $accessToken = Yii::$app->request->headers->get('Authorization');
+          $accessToken = substr($accessToken, 7);
+          $user = User::findIdentityByAccessToken($accessToken);
+
+          if ($user) {
+               Yii::$app->session->destroy();
+               return ['message' => 'Session destroyed'];
+          } else {
+               throw new UnauthorizedHttpException('Invalid access token');
+          }
+     }
+
 
 }
