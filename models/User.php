@@ -4,6 +4,7 @@ namespace app\models;
 
 use Yii;
 use yii\web\ForbiddenHttpException;
+
 /**
  * This is the model class for table "user".
  *
@@ -29,7 +30,7 @@ class User extends \yii\db\ActiveRecord
     /**
      * {@inheritdoc}
      */
-    
+
     public $password;
 
     public function rules()
@@ -66,8 +67,8 @@ class User extends \yii\db\ActiveRecord
     {
         // Хэширование паролей А3
         if ($this->password) {
-			$this->password_hash = Yii::$app->security->generatePasswordHash($this->password);
-		}
+            $this->password_hash = Yii::$app->security->generatePasswordHash($this->password);
+        }
         return parent::beforeSave($insert);
     }
 
@@ -78,22 +79,22 @@ class User extends \yii\db\ActiveRecord
 
     // Блокировка учетной записи B2
     public function isLoginBlocked()
-	{
+    {
         if ($this->login_locked_until && $this->login_locked_until > time()) {
             return true;
         }
-        
+
         return false;
-	}
-	
-	public function updateFailedLoginAttempts($successfulLogin)
-	{
+    }
+
+    public function updateFailedLoginAttempts($successfulLogin)
+    {
         if ($successfulLogin) {
             $this->failed_login_attempts = 0;
             $this->login_locked_until = null;
         } else {
             $this->failed_login_attempts++;
-            Yii::info($this->failed_login_attempts,'$this->failed_login_attempts');
+            Yii::info($this->failed_login_attempts, '$this->failed_login_attempts');
             switch ($this->failed_login_attempts) {
                 case 1:
                     $this->save();
@@ -116,11 +117,9 @@ class User extends \yii\db\ActiveRecord
                     $this->login_locked_until = time() + (60 * 180) + (60 * 30); // Заблокировать на 30 минут
                     $this->save();
                     throw new ForbiddenHttpException('Your account is blocked until ' . date("d.m.Y H:i:s", $this->login_locked_until));
-
             }
         }
-      
-        $this->save();
-	}
 
+        $this->save();
+    }
 }

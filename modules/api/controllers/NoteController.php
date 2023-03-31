@@ -1,6 +1,7 @@
 <?php
 
 namespace app\modules\api\controllers;
+
 use Yii;
 use yii\rest\ActiveController;
 use app\models\User;
@@ -25,7 +26,7 @@ class NoteController extends ActiveController
         if (!$user) {
             throw new \yii\web\UnauthorizedHttpException($accessToken);
         }
-        
+
         return parent::beforeAction($action);
     }
 
@@ -107,7 +108,7 @@ class NoteController extends ActiveController
     {
         $id = Yii::$app->request->get('id');
 
-    
+
         $model = Note::findOne($id);
 
         if (!$model) {
@@ -128,5 +129,4 @@ class NoteController extends ActiveController
             throw new \yii\web\UnauthorizedHttpException();
         }
     }
-
 }

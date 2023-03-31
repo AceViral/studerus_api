@@ -13,17 +13,32 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'contentSecurityPolicy' => [
+            'class' => \yii\filters\ContentSecurityPolicy::class,
+            'policy' => [
+                'default-src' => ["'self'"],
+                'script-src' => ["'self'"],
+                'style-src' => ["'self'"],
+                'img-src' => ["'self'"],
+                'font-src' => ["'self'"],
+                'connect-src' => ["'self'"],
+                'media-src' => ["'self'"],
+                'object-src' => ["'self'"],
+                'child-src' => ["'self'"],
+                'frame-ancestors' => ["'none'"],
+            ],
+        ],
         // Безопасное управления сеансом А1
         'session' => [
-	        'class' => 'yii\web\Session',
-	        'cookieParams' => [
-	            'httponly' => true,
-	            'secure' => true,
+            'class' => 'yii\web\Session',
+            'cookieParams' => [
+                'httponly' => true,
+                'secure' => true,
                 // Файлы coockie на одном сайте C1
                 'samesite' => yii\web\Cookie::SAME_SITE_STRICT,
-	            'lifetime' => 3600, // Время жизни сессии в секундах
-	        ],
-	    ],
+                'lifetime' => 3600, // Время жизни сессии в секундах
+            ],
+        ],
         'request' => [
             // Защита от CSRF А2 А4
             'enableCsrfValidation' => true,
@@ -112,10 +127,10 @@ $config = [
 
     ],
     'modules' => [
-		'api' => [
-			'class' => 'app\modules\api\Module',
+        'api' => [
+            'class' => 'app\modules\api\Module',
         ],
-	],
+    ],
     'params' => $params,
 ];
 

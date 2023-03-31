@@ -11,6 +11,7 @@ use yii\web\ForbiddenHttpException;
 use yii\web\ServerErrorHttpException;
 use yii\web\UnauthorizedHttpException;
 use yii\web\NotFoundHttpException;
+use yii\helpers\HtmlPurifier;
 
 class AuthController extends Controller
 {
@@ -18,6 +19,12 @@ class AuthController extends Controller
      {
           $behaviors = parent::behaviors();
 
+          $behaviors['contentNegotiator'] = [
+               'class' => \yii\filters\ContentNegotiator::class,
+               'formats' => [
+                    'application/json' => \yii\web\Response::FORMAT_JSON,
+               ],
+          ];
           // remove authentication filter
           $auth = $behaviors['authenticator'];
           unset($behaviors['authenticator']);
@@ -25,6 +32,13 @@ class AuthController extends Controller
           // add CORS filter
           $behaviors['corsFilter'] = [
                'class' => \yii\filters\Cors::className(),
+               'cors' => [
+                    'Origin' => ['*'],
+                    'Access-Control-Request-Method' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+                    'Access-Control-Request-Headers' => ['*'],
+                    'Access-Control-Allow-Credentials' => true,
+                    'Access-Control-Expose-Headers' => ['*'],
+               ],
           ];
 
           // re-add authentication filter
@@ -47,7 +61,7 @@ class AuthController extends Controller
           $email = $in['email'];
           $password = $in['password'];
           $username = $in['username'];
-          
+
 
           if ($email && $password && $username) {
 
@@ -58,7 +72,7 @@ class AuthController extends Controller
                $user->username = $username;
                $user->created_at = time();
                $user->updated_at = time();
-               
+
                $user->access_token = \Yii::$app->security->generateRandomString();
 
                $userSaved = $user->save(false);
@@ -73,7 +87,6 @@ class AuthController extends Controller
                     $out['ok'] = 1;
                     $out['user'] = $user->getAttributes();
                }
-
           } else {
                throw new BadRequestHttpException('Not all data provided');
           }
@@ -81,7 +94,7 @@ class AuthController extends Controller
           return $out;
      }
 
-     public function actionLogin ()
+     public function actionLogin()
      {
           $out = [
                'ok' => 0,
@@ -95,15 +108,15 @@ class AuthController extends Controller
           $username = $in['username'];
 
           $user = User::find()
-               ->where(['email'=>$email])
-               ->orWhere(['username'=>$username])
+               ->where(['email' => $email])
+               ->orWhere(['username' => $username])
                ->one();
 
           if ($user) {
                // Блокировка учетной записи B2
                if ($user->isLoginBlocked()) {
                     throw new ForbiddenHttpException('Your account is blocked until ' . date("d.m.Y H:i:s", $user->login_locked_until));
-               } 
+               }
 
                // actionLogin()
                $userSessions = Yii::$app->session->get('userSessions', []);
@@ -111,7 +124,7 @@ class AuthController extends Controller
                $maxSessions = 2; // максимальное количество сессий для пользователя
 
                if ($sessionCount >= $maxSessions) {
-               throw new ForbiddenHttpException('Maximum number of sessions reached');
+                    throw new ForbiddenHttpException('Maximum number of sessions reached');
                }
 
                $userSessions[] = session_id();
@@ -132,7 +145,7 @@ class AuthController extends Controller
           return $out;
      }
 
-     public function actionCheckUser ()
+     public function actionCheckUser()
      {
           $accessToken = Yii::$app->request->headers->get('Authorization');
           $accessToken = substr($accessToken, 7);
@@ -162,6 +175,4 @@ class AuthController extends Controller
                throw new UnauthorizedHttpException('Invalid access token');
           }
      }
-
-
 }
