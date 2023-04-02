@@ -40,6 +40,7 @@ $config = [
             ],
         ],
         'request' => [
+            'class' => 'yii\web\Request',
             // Защита от CSRF А2 А4
             'enableCsrfValidation' => true,
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -119,6 +120,20 @@ $config = [
                     ],
                     'tokens' => [
                         '{id}' => '<id:\d+>',
+                    ],
+                    'pluralize' => false,
+                ],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => [
+                        'api/token' => 'api/token'
+                    ],
+                    'extraPatterns' => [
+                        'OPTIONS generate-token' => 'generate-token',
+                        'POST generate-token' => 'generate-token',
+
+                        'OPTIONS validate-token' => 'validate-token',
+                        'GET validate-token' => 'validate-token',
                     ],
                     'pluralize' => false,
                 ],

@@ -4,6 +4,9 @@ namespace app\models;
 
 use Yii;
 use yii\web\ForbiddenHttpException;
+use Firebase\JWT\Key;
+use Firebase\JWT\JWT;
+use yii\web\UnauthorizedHttpException;
 
 /**
  * This is the model class for table "user".
@@ -32,6 +35,7 @@ class User extends \yii\db\ActiveRecord
      */
 
     public $password;
+    public $refresh_token;
 
     public function rules()
     {
@@ -40,8 +44,7 @@ class User extends \yii\db\ActiveRecord
             [['created_at', 'updated_at', 'login_locked_until', 'failed_login_attempts'], 'default', 'value' => null],
             [['created_at', 'updated_at', 'login_locked_until', 'failed_login_attempts'], 'integer'],
             [['username'], 'string', 'max' => 32],
-            [['email', 'password_hash', 'access_token'], 'string', 'max' => 255],
-            [['access_token'], 'unique'],
+            [['email', 'password_hash', 'refresh_token_hash'], 'string', 'max' => 500],
             [['email'], 'unique'],
             [['username'], 'unique'],
         ];
@@ -57,7 +60,7 @@ class User extends \yii\db\ActiveRecord
             'username' => 'Username',
             'email' => 'Email',
             'password_hash' => 'Password Hash',
-            'access_token' => 'Access Token',
+            'refresh_token_hash' => 'Refresh Token Hash',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
         ];
@@ -69,6 +72,11 @@ class User extends \yii\db\ActiveRecord
         if ($this->password) {
             $this->password_hash = Yii::$app->security->generatePasswordHash($this->password);
         }
+        // Хэширование рефреш токена
+        if ($this->refresh_token) {
+            $this->refresh_token_hash = Yii::$app->security->generatePasswordHash($this->refresh_token);
+        }
+
         return parent::beforeSave($insert);
     }
 
@@ -121,5 +129,44 @@ class User extends \yii\db\ActiveRecord
         }
 
         $this->save();
+    }
+
+    public function generateRefreshToken()
+    {
+        $token = [
+            'iss' => 'your-issuer-here',
+            'aud' => 'your-audience-here',
+            'iat' => time(),
+            'nbf' => time(),
+            'exp' => time() + 31536000,
+            'data' => []
+        ];
+
+        return JWT::encode($token, 'your-secret-key-here', 'HS256');
+    }
+
+    public function generateJWTtoken($payload)
+    {
+        $token = [
+            'iss' => 'your-issuer-here',
+            'aud' => 'your-audience-here',
+            'iat' => time(),
+            'nbf' => time(),
+            'exp' => time() + 6,
+            'data' => $payload
+        ];
+
+        return JWT::encode($token, 'your-secret-key-here', 'HS256');
+    }
+
+    public static function getUserDataFromJWT($jwt)
+    {
+        try {
+            $decoded = JWT::decode($jwt, new Key('your-secret-key-here', 'HS256'));
+        } catch (\Exception $e) {
+            throw new UnauthorizedHttpException('Invalid token.');
+        }
+
+        return $decoded;
     }
 }

@@ -17,7 +17,7 @@ class m230327_182721_create_user_table extends Migration
             'username' => $this->string(32)->notNull()->unique(),
             'email' => $this->string()->notNull()->unique(),
             'password_hash' => $this->string()->notNull(),
-            'access_token' => $this->string()->notNull()->unique(),
+            'refresh_token_hash' => $this->string()->notNull(),
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
             'login_locked_until' => $this->integer(),
@@ -29,5 +29,4 @@ class m230327_182721_create_user_table extends Migration
     {
         $this->dropTable('{{%user}}');
     }
-
 }

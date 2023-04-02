@@ -4,14 +4,12 @@ namespace app\modules\api\controllers;
 
 use Yii;
 use app\models\User;
-use app\models\IpLimiter;
 use yii\rest\Controller;
 use yii\web\BadRequestHttpException;
 use yii\web\ForbiddenHttpException;
 use yii\web\ServerErrorHttpException;
 use yii\web\UnauthorizedHttpException;
 use yii\web\NotFoundHttpException;
-use yii\helpers\HtmlPurifier;
 
 class AuthController extends Controller
 {
@@ -51,11 +49,6 @@ class AuthController extends Controller
 
      public function actionRegister()
      {
-          $out = [
-               'ok' => 0,
-               'status' => 200,
-          ];
-
           $in = \Yii::$app->request->post();
 
           $email = $in['email'];
@@ -72,10 +65,20 @@ class AuthController extends Controller
                $user->username = $username;
                $user->created_at = time();
                $user->updated_at = time();
+               $refresh_token = $user->generateRefreshToken();
+               $user->refresh_token = $refresh_token;
 
-               $user->access_token = \Yii::$app->security->generateRandomString();
+               $userSaved = $user->save();
 
-               $userSaved = $user->save(false);
+               $jwt = $user->generateJWTtoken(
+                    [
+                         'user_id' => $user->id,
+                         'username' => $user->username,
+                         'email' => $user->email,
+                    ]
+               );
+
+
 
                if (!$userSaved) {
                     $out['err']['user not saved'] = [
@@ -84,8 +87,9 @@ class AuthController extends Controller
                          $user->getAttributes(),
                     ];
                } else {
-                    $out['ok'] = 1;
                     $out['user'] = $user->getAttributes();
+                    $out['access_token'] = $jwt;
+                    $out['refresh_token'] = $refresh_token;
                }
           } else {
                throw new BadRequestHttpException('Not all data provided');
@@ -96,10 +100,6 @@ class AuthController extends Controller
 
      public function actionLogin()
      {
-          $out = [
-               'ok' => 0,
-               'status' => 200,
-          ];
 
           $in = \Yii::$app->request->post();
 
@@ -118,7 +118,6 @@ class AuthController extends Controller
                     throw new ForbiddenHttpException('Your account is blocked until ' . date("d.m.Y H:i:s", $user->login_locked_until));
                }
 
-               // actionLogin()
                $userSessions = Yii::$app->session->get('userSessions', []);
                $sessionCount = count($userSessions);
                $maxSessions = 2; // максимальное количество сессий для пользователя
@@ -130,10 +129,19 @@ class AuthController extends Controller
                $userSessions[] = session_id();
                Yii::$app->session->set('userSessions', $userSessions);
 
-
                if (Yii::$app->security->validatePassword($password, $user->password_hash)) {
                     $user->updateFailedLoginAttempts(true);
-                    $out['ok'] = 1;
+
+                    $jwt = $user->generateJWTtoken(
+                         [
+                              'user_id' => $user->id,
+                              'username' => $user->username,
+                              'email' => $user->email,
+                         ]
+                    );
+                    $user->access_token = $jwt;
+                    $user->save();
+
                     $out['user'] = $user->getAttributes();
                } else {
                     $user->updateFailedLoginAttempts(false);
@@ -147,19 +155,18 @@ class AuthController extends Controller
 
      public function actionCheckUser()
      {
-          $accessToken = Yii::$app->request->headers->get('Authorization');
-          $accessToken = substr($accessToken, 7);
-          $user = User::findIdentityByAccessToken($accessToken);
+          $jwt = Yii::$app->request->headers->get('Authorization');
+          $jwt = substr($jwt, 7);
 
-          if ($user) {
-               return [
-                    'ok' => 1,
-                    'status' => 200,
-                    'user_token' => $user->access_token,
-               ];
-          } else {
-               throw new \yii\web\UnauthorizedHttpException();
+          if (!$jwt) {
+               throw new UnauthorizedHttpException('Token not provided.');
           }
+
+          $decoded = User::getUserDataFromJWT($jwt);
+
+          return [
+               'user_data' => $decoded,
+          ];
      }
 
      public function actionLogout()
