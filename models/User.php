@@ -7,6 +7,10 @@ use yii\web\ForbiddenHttpException;
 use Firebase\JWT\Key;
 use Firebase\JWT\JWT;
 use yii\web\UnauthorizedHttpException;
+use yii\web\NotFoundHttpException;
+use yii\db\ActiveRecord;
+use yii\web\IdentityInterface;
+
 
 /**
  * This is the model class for table "user".
@@ -21,7 +25,7 @@ use yii\web\UnauthorizedHttpException;
  *
  * @property Note[] $notes
  */
-class User extends \yii\db\ActiveRecord
+class User extends ActiveRecord implements IdentityInterface
 {
     /**
      * {@inheritdoc}
@@ -66,6 +70,31 @@ class User extends \yii\db\ActiveRecord
         ];
     }
 
+    public static function findIdentity($id)
+    {
+        return static::findOne($id);
+    }
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public static function findIdentityByAccessToken($accessToken, $type = null)
+    {
+        return static::findOne(['access_token' => $accessToken]);
+    }
+
+    public function getAuthKey()
+    {
+        throw new NotFoundHttpException();
+    }
+
+    public function validateAuthKey($authKey)
+    {
+        throw new NotFoundHttpException();
+    }
+
     public function beforeSave($insert)
     {
         // Хэширование паролей А3
@@ -80,10 +109,6 @@ class User extends \yii\db\ActiveRecord
         return parent::beforeSave($insert);
     }
 
-    public static function findIdentityByAccessToken($accessToken, $type = null)
-    {
-        return static::findOne(['access_token' => $accessToken]);
-    }
 
     // Блокировка учетной записи B2
     public function isLoginBlocked()
@@ -131,15 +156,15 @@ class User extends \yii\db\ActiveRecord
         $this->save();
     }
 
-    public function generateRefreshToken()
+    public function generateRefreshToken($payload)
     {
         $token = [
             'iss' => 'your-issuer-here',
             'aud' => 'your-audience-here',
             'iat' => time(),
             'nbf' => time(),
-            'exp' => time() + 31536000,
-            'data' => []
+            'exp' => time() + 15000000,
+            'data' => $payload
         ];
 
         return JWT::encode($token, 'your-secret-key-here', 'HS256');
@@ -152,7 +177,7 @@ class User extends \yii\db\ActiveRecord
             'aud' => 'your-audience-here',
             'iat' => time(),
             'nbf' => time(),
-            'exp' => time() + 6,
+            'exp' => time() + 600,
             'data' => $payload
         ];
 

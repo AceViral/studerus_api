@@ -26,19 +26,18 @@ class AuthController extends Controller
           // remove authentication filter
           $auth = $behaviors['authenticator'];
           unset($behaviors['authenticator']);
-
-          // add CORS filter
           $behaviors['corsFilter'] = [
-               'class' => \yii\filters\Cors::className(),
+               'class' => \yii\filters\Cors::class,
                'cors' => [
-                    'Origin' => ['*'],
+                    'Origin' => ['http://localhost:3000'],
                     'Access-Control-Request-Method' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
                     'Access-Control-Request-Headers' => ['*'],
                     'Access-Control-Allow-Credentials' => true,
-                    'Access-Control-Expose-Headers' => ['*'],
+                    'Access-Control-Allow-Headers' => ['Content-Type', 'Authorization'],
+                    'Access-Control-Max-Age' => 3600,
+                    'Access-Control-Expose-Headers' => ['Content-Type', 'Authorization'],
                ],
           ];
-
           // re-add authentication filter
           $behaviors['authenticator'] = $auth;
           // avoid authentication on CORS-pre-flight requests (HTTP OPTIONS method)
@@ -65,11 +64,9 @@ class AuthController extends Controller
                $user->username = $username;
                $user->created_at = time();
                $user->updated_at = time();
-               $refresh_token = $user->generateRefreshToken();
-               $user->refresh_token = $refresh_token;
 
-               $userSaved = $user->save();
-
+               // $userSaved = $user->save();
+               $user->save();
                $jwt = $user->generateJWTtoken(
                     [
                          'user_id' => $user->id,
@@ -78,7 +75,13 @@ class AuthController extends Controller
                     ]
                );
 
-
+               $refresh_token = $user->generateRefreshToken(
+                    [
+                         'user_id' => $user->id,
+                    ]
+               );
+               $user->refresh_token = $refresh_token;
+               $userSaved = $user->save();
 
                if (!$userSaved) {
                     $out['err']['user not saved'] = [
@@ -100,7 +103,6 @@ class AuthController extends Controller
 
      public function actionLogin()
      {
-
           $in = \Yii::$app->request->post();
 
           $email = $in['email'];
@@ -118,19 +120,21 @@ class AuthController extends Controller
                     throw new ForbiddenHttpException('Your account is blocked until ' . date("d.m.Y H:i:s", $user->login_locked_until));
                }
 
-               $userSessions = Yii::$app->session->get('userSessions', []);
-               $sessionCount = count($userSessions);
-               $maxSessions = 2; // максимальное количество сессий для пользователя
-
-               if ($sessionCount >= $maxSessions) {
-                    throw new ForbiddenHttpException('Maximum number of sessions reached');
-               }
-
-               $userSessions[] = session_id();
-               Yii::$app->session->set('userSessions', $userSessions);
-
                if (Yii::$app->security->validatePassword($password, $user->password_hash)) {
                     $user->updateFailedLoginAttempts(true);
+
+                    $userSessions = Yii::$app->session->get('userSessions', []);
+                    $sessionCount = count($userSessions);
+                    $maxSessions = 2; // максимальное количество сессий для пользователя
+
+                    if ($sessionCount >= $maxSessions) {
+                         throw new ForbiddenHttpException('Maximum number of sessions reached');
+                    }
+
+                    $userSessions[] = session_id();
+                    Yii::$app->session->set('userSessions', $userSessions);
+
+                    $userSaved = $user->save();
 
                     $jwt = $user->generateJWTtoken(
                          [
@@ -139,10 +143,25 @@ class AuthController extends Controller
                               'email' => $user->email,
                          ]
                     );
-                    $user->access_token = $jwt;
-                    $user->save();
 
-                    $out['user'] = $user->getAttributes();
+                    $refresh_token = $user->generateRefreshToken(
+                         [
+                              'user_id' => $user->id,
+                         ]
+                    );
+                    $user->refresh_token = $refresh_token;
+
+                    if (!$userSaved) {
+                         $out['err']['user not saved'] = [
+                              $user->getErrors(),
+                              $user->errors,
+                              $user->getAttributes(),
+                         ];
+                    } else {
+                         $out['user'] = $user->getAttributes();
+                         $out['access_token'] = $jwt;
+                         $out['refresh_token'] = $refresh_token;
+                    }
                } else {
                     $user->updateFailedLoginAttempts(false);
                }
@@ -169,17 +188,67 @@ class AuthController extends Controller
           ];
      }
 
+     public function actionRefresh()
+     {
+          $requestMethod = Yii::$app->request->getMethod();
+          Yii::info('requestMethod', $requestMethod);
+          if ($requestMethod !== 'OPTIONS') {
+               $refresh_token = Yii::$app->request->headers->get('Authorization');
+               Yii::info('refresh_token', $refresh_token);
+               $refresh_token = substr($refresh_token, 7);
+
+               $decoded = User::getUserDataFromJWT($refresh_token);
+
+               $user = User::find()
+                    ->where(['id' => $decoded->data->user_id])
+                    ->one();
+
+               if ($user) {
+                    if (Yii::$app->security->validatePassword($refresh_token, $user->refresh_token_hash)) {
+
+                         $refresh_token = $user->generateRefreshToken(
+                              [
+                                   'user_id' => $user->id,
+                              ]
+                         );
+                         $user->refresh_token = $refresh_token;
+
+                         $userSaved = $user->save();
+
+                         $jwt = $user->generateJWTtoken(
+                              [
+                                   'user_id' => $user->id,
+                                   'username' => $user->username,
+                                   'email' => $user->email,
+                              ]
+                         );
+
+                         if (!$userSaved) {
+                              $out['err']['user not saved'] = [
+                                   $user->getErrors(),
+                                   $user->errors,
+                                   $user->getAttributes(),
+                              ];
+                         } else {
+                              $out['access_token'] = $jwt;
+                              $out['refresh_token'] = $refresh_token;
+                         }
+                    } else {
+                         $user->updateFailedLoginAttempts(false);
+                    }
+               } else {
+                    throw new NotFoundHttpException('User not found');
+               }
+
+               return $out;
+          }
+     }
+
      public function actionLogout()
      {
           $accessToken = Yii::$app->request->headers->get('Authorization');
           $accessToken = substr($accessToken, 7);
-          $user = User::findIdentityByAccessToken($accessToken);
-
-          if ($user) {
-               Yii::$app->session->destroy();
-               return ['message' => 'Session destroyed'];
-          } else {
-               throw new UnauthorizedHttpException('Invalid access token');
-          }
+          Yii::$app->session->destroy();
+          return ['message' => 'Session destroyed'];
      }
 }

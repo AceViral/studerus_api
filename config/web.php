@@ -95,6 +95,9 @@ $config = [
                         'OPTIONS check-user' => 'check-user',
                         'GET check-user' => 'check-user',
 
+                        'OPTIONS refresh' => 'refresh',
+                        'POST refresh' => 'refresh',
+
                         'OPTIONS logout' => 'logout',
                         'GET logout' => 'logout',
                     ],

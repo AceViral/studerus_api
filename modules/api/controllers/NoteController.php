@@ -11,39 +11,59 @@ use app\models\Note;
 class NoteController extends ActiveController
 {
     public $modelClass = Note::class;
+    public function behaviors()
+    {
+        $behaviors = parent::behaviors();
 
+        $behaviors['corsFilter'] = [
+            'class' => \yii\filters\Cors::class,
+            'cors' => [
+                'Origin' => ['http://localhost:3000'],
+                'Access-Control-Request-Method' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+                'Access-Control-Request-Headers' => ['*'],
+                'Access-Control-Allow-Credentials' => true,
+                'Access-Control-Allow-Headers' => ['Content-Type', 'Authorization'],
+                'Access-Control-Max-Age' => 3600,
+                'Access-Control-Expose-Headers' => ['Content-Type', 'Authorization'],
+            ],
+        ];
+
+        return $behaviors;
+    }
     public function beforeAction($action)
     {
-        $accessToken = Yii::$app->request->headers->get('Authorization');
-        $accessToken = substr($accessToken, 7);
+        $requestMethod = Yii::$app->request->getMethod();
+        if ($requestMethod !== 'OPTIONS') {
 
-        if (!$accessToken) {
-            throw new \yii\web\UnauthorizedHttpException('Отсутствует токен авторизации.');
+            $jwt = Yii::$app->request->headers->get('Authorization');
+            $jwt = substr($jwt, 7);
+
+            if (!$jwt) {
+                throw new \yii\web\UnauthorizedHttpException('Token not provided.');
+            }
+
+            $decoded = User::getUserDataFromJWT($jwt);
+            $user = User::find()
+                ->where(['id' => $decoded->data->user_id])
+                ->one();
+
+            if ($user) {
+                Yii::$app->user->identity = $user;
+            } else {
+                throw new \yii\web\UnauthorizedHttpException('User not found.');
+            }
         }
-
-        $user = User::findIdentityByAccessToken($accessToken);
-
-        if (!$user) {
-            throw new \yii\web\UnauthorizedHttpException($accessToken);
-        }
-
         return parent::beforeAction($action);
     }
 
     public function actionGetNote()
     {
-        $accessToken = Yii::$app->request->headers->get('Authorization');
-        $accessToken = substr($accessToken, 7);
-        $user = User::findIdentityByAccessToken($accessToken);
+        $user = Yii::$app->user->identity;
 
         if ($user) {
             $notes = Note::find()->where(['user_id' => $user->id])->all();
 
-            return [
-                'ok' => 1,
-                'status' => 200,
-                'notes' => $notes,
-            ];
+            return $notes;
         } else {
             throw new \yii\web\UnauthorizedHttpException();
         }
@@ -55,9 +75,7 @@ class NoteController extends ActiveController
 
         $note = new Note();
 
-        $accessToken = Yii::$app->request->headers->get('Authorization');
-        $accessToken = substr($accessToken, 7);
-        $user = User::findIdentityByAccessToken($accessToken);
+        $user = Yii::$app->user->identity;
 
         if ($user) {
             $note->user_id = $user->id;
@@ -86,9 +104,7 @@ class NoteController extends ActiveController
             throw new \yii\web\NotFoundHttpException('Записка не найдена.');
         }
 
-        $accessToken = Yii::$app->request->headers->get('Authorization');
-        $accessToken = substr($accessToken, 7);
-        $user = User::findIdentityByAccessToken($accessToken);
+        $user = Yii::$app->user->identity;
 
         if ($user && $note->user_id == $user->id) {
             $note->load(Yii::$app->request->post(), '');
@@ -115,9 +131,7 @@ class NoteController extends ActiveController
             throw new \yii\web\NotFoundHttpException('Записка не найдена.');
         }
 
-        $accessToken = Yii::$app->request->headers->get('Authorization');
-        $accessToken = substr($accessToken, 7);
-        $user = User::findIdentityByAccessToken($accessToken);
+        $user = Yii::$app->user->identity;
 
         if ($user && $model->user_id == $user->id) {
             if ($model->delete()) {
