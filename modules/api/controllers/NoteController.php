@@ -27,6 +27,9 @@ class NoteController extends ActiveController
                 'Access-Control-Expose-Headers' => ['Content-Type', 'Authorization'],
             ],
         ];
+        $behaviors['rateLimiter'] = [
+            'class' => \yii\filters\RateLimiter::class,
+        ];
 
         return $behaviors;
     }
