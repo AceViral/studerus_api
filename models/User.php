@@ -146,8 +146,7 @@ class User extends ActiveRecord implements IdentityInterface
                     throw new ForbiddenHttpException('You have 1 attempts left otherwise your account will be blocked for 30 minutes');
                     break;
                 default:
-                    // 60 * 180 Потому что в php time() относительно МСК отстает на 3 часа
-                    $this->login_locked_until = time() + (60 * 180) + (60 * 30); // Заблокировать на 30 минут
+                    $this->login_locked_until = time() + (60 * 30); // Заблокировать на 30 минут
                     $this->save();
                     throw new ForbiddenHttpException('Your account is blocked until ' . date("d.m.Y H:i:s", $this->login_locked_until));
             }

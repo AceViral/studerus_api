@@ -54,6 +54,13 @@ class AuthController extends Controller
           $password = $in['password'];
           $username = $in['username'];
 
+          $user = User::find()
+               ->where(['email' => $email])
+               ->orWhere(['username' => $username])
+               ->one();
+          if ($user) {
+               throw new ForbiddenHttpException('User has already been taken');
+          }
 
           if ($email && $password && $username) {
 
