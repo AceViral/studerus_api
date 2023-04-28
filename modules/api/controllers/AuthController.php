@@ -130,17 +130,6 @@ class AuthController extends Controller
                if (Yii::$app->security->validatePassword($password, $user->password_hash)) {
                     $user->updateFailedLoginAttempts(true);
 
-                    $userSessions = Yii::$app->session->get('userSessions', []);
-                    $sessionCount = count($userSessions);
-                    $maxSessions = 2; // максимальное количество сессий для пользователя
-
-                    if ($sessionCount >= $maxSessions) {
-                         throw new ForbiddenHttpException('Maximum number of sessions reached');
-                    }
-
-                    $userSessions[] = session_id();
-                    Yii::$app->session->set('userSessions', $userSessions);
-
                     $userSaved = $user->save();
 
                     $jwt = $user->generateJWTtoken(
@@ -249,13 +238,5 @@ class AuthController extends Controller
 
                return $out;
           }
-     }
-
-     public function actionLogout()
-     {
-          $accessToken = Yii::$app->request->headers->get('Authorization');
-          $accessToken = substr($accessToken, 7);
-          Yii::$app->session->destroy();
-          return ['message' => 'Session destroyed'];
      }
 }
