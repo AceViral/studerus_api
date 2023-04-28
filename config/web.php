@@ -13,22 +13,6 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
-        'rateLimiter' => [
-            'class' => \yii\filters\RateLimiter::class,
-            'enableRateLimitHeaders' => true,
-            'rateLimitHeadersLimit' => 'X-Rate-Limit-Limit',
-            'rateLimitHeadersRemaining' => 'X-Rate-Limit-Remaining',
-            'rateLimitHeadersReset' => 'X-Rate-Limit-Reset',
-            'userIdentifier' => function ($request) {
-                return $request->getUserIP();
-            },
-            'rateLimit' => [
-                [
-                    'limit' => 2, // ограничение на 2 запроса в секунду
-                    'time' => 1, // временной интервал в секундах
-                ],
-            ],
-        ],
         'contentSecurityPolicy' => [
             'class' => \yii\filters\ContentSecurityPolicy::class,
             'policy' => [
