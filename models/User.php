@@ -199,7 +199,7 @@ class User extends ActiveRecord implements IdentityInterface, \yii\filters\RateL
 
     public function getRateLimit($request, $action)
     {
-        return [$this->rateLimit, 1];
+        return [$this->rateLimit, 10];
     }
 
     public function loadAllowance($request, $action)
