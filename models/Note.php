@@ -16,7 +16,7 @@ use Yii;
  *
  * @property User $user
  */
-class Note extends \yii\db\ActiveRecord implements \yii\filters\RateLimitInterface
+class Note extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
@@ -25,9 +25,6 @@ class Note extends \yii\db\ActiveRecord implements \yii\filters\RateLimitInterfa
     {
         return 'note';
     }
-    public $rateLimit = 1;
-    public $allowance;
-    public $allowance_updated_at;
 
     /**
      * {@inheritdoc}
@@ -75,21 +72,5 @@ class Note extends \yii\db\ActiveRecord implements \yii\filters\RateLimitInterfa
             $this->user_id = $this->user_id;
         }
         return parent::beforeSave($insert);
-    }
-    public function getRateLimit($request, $action)
-    {
-        return [$this->rateLimit, 1];
-    }
-
-    public function loadAllowance($request, $action)
-    {
-        return [$this->allowance, $this->allowance_updated_at];
-    }
-
-    public function saveAllowance($request, $action, $allowance, $timestamp)
-    {
-        $this->allowance = $allowance;
-        $this->allowance_updated_at = $timestamp;
-        $this->save();
     }
 }

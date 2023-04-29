@@ -6,10 +6,6 @@ use Yii;
 use yii\rest\ActiveController;
 use app\models\User;
 use app\models\Note;
-use yii\filters\auth\CompositeAuth;
-use yii\filters\auth\HttpBearerAuth;
-use yii\filters\auth\QueryParamAuth;
-use yii\filters\RateLimiter;
 
 class NoteController extends ActiveController
 {
@@ -28,17 +24,6 @@ class NoteController extends ActiveController
                 'Access-Control-Allow-Headers' => ['Content-Type', 'Authorization'],
                 'Access-Control-Max-Age' => 3600,
                 'Access-Control-Expose-Headers' => ['Content-Type', 'Authorization'],
-            ],
-        ];
-        $behaviors['rateLimiter'] = [
-            'class' => RateLimiter::class,
-            'enableRateLimitHeaders' => true,
-        ];
-        $behaviors['authenticator'] = [
-            'class' => CompositeAuth::class,
-            'authMethods' => [
-                HttpBearerAuth::class,
-                QueryParamAuth::class,
             ],
         ];
         return $behaviors;

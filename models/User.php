@@ -25,7 +25,7 @@ use yii\web\IdentityInterface;
  *
  * @property Note[] $notes
  */
-class User extends ActiveRecord implements IdentityInterface, \yii\filters\RateLimitInterface
+class User extends ActiveRecord implements IdentityInterface
 {
     /**
      * {@inheritdoc}
@@ -40,9 +40,6 @@ class User extends ActiveRecord implements IdentityInterface, \yii\filters\RateL
 
     public $password;
     public $refresh_token;
-    public $rateLimit = 1;
-    public $allowance;
-    public $allowance_updated_at;
 
     public function rules()
     {
@@ -195,22 +192,5 @@ class User extends ActiveRecord implements IdentityInterface, \yii\filters\RateL
         }
 
         return $decoded;
-    }
-
-    public function getRateLimit($request, $action)
-    {
-        return [$this->rateLimit, 10];
-    }
-
-    public function loadAllowance($request, $action)
-    {
-        return [$this->allowance, $this->allowance_updated_at];
-    }
-
-    public function saveAllowance($request, $action, $allowance, $timestamp)
-    {
-        $this->allowance = $allowance;
-        $this->allowance_updated_at = $timestamp;
-        $this->save();
     }
 }
