@@ -1,0 +1,1902 @@
+2023-04-30 07:11:55 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:11:55 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58775'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838715.7332
+    'REQUEST_TIME' => 1682838715
+]
+2023-04-30 07:12:10 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:12:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58781'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838730.127
+    'REQUEST_TIME' => 1682838730
+]
+2023-04-30 07:12:10 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:12:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58783'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838730.8822
+    'REQUEST_TIME' => 1682838730
+]
+2023-04-30 07:12:15 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:12:15 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58785'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838735.7279
+    'REQUEST_TIME' => 1682838735
+]
+2023-04-30 07:12:19 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:12:18 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58789'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838738.97
+    'REQUEST_TIME' => 1682838738
+]
+2023-04-30 07:12:46 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:12:46 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58802'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838766.1696
+    'REQUEST_TIME' => 1682838766
+]
+2023-04-30 07:13:10 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:13:10 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58813'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838790.482
+    'REQUEST_TIME' => 1682838790
+]
+2023-04-30 07:13:40 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:13:40 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58825'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838820.3714
+    'REQUEST_TIME' => 1682838820
+]
+2023-04-30 07:13:41 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:13:41 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58832'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/site/index'
+    'PHP_SELF' => '/index.php/site/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost:8080/site/login'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838821.8458
+    'REQUEST_TIME' => 1682838821
+]
+2023-04-30 07:13:43 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:13:43 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58840'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/site/index'
+    'PHP_SELF' => '/index.php/site/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8080/site/login'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838823.1269
+    'REQUEST_TIME' => 1682838823
+]
+2023-04-30 07:13:46 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:13:46 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58852'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/site/index'
+    'PHP_SELF' => '/index.php/site/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8080/site/login'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838826.7087
+    'REQUEST_TIME' => 1682838826
+]
+2023-04-30 07:13:48 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:13:48 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58860'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838828.2337
+    'REQUEST_TIME' => 1682838828
+]
+2023-04-30 07:14:02 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:14:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58875'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838842.2899
+    'REQUEST_TIME' => 1682838842
+]
+2023-04-30 07:14:16 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:14:16 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58884'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838856.9143
+    'REQUEST_TIME' => 1682838856
+]
+2023-04-30 07:14:27 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:14:27 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58898'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838867.7072
+    'REQUEST_TIME' => 1682838867
+]
+2023-04-30 07:14:42 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:14:42 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58911'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838882.3015
+    'REQUEST_TIME' => 1682838882
+]
+2023-04-30 07:16:02 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:16:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58939'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838962.8817
+    'REQUEST_TIME' => 1682838962
+]
+2023-04-30 07:16:10 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:16:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58943'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/site/index'
+    'PHP_SELF' => '/index.php/site/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838970.3327
+    'REQUEST_TIME' => 1682838970
+]
+2023-04-30 07:16:14 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:16:13 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58944'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682838973.9121
+    'REQUEST_TIME' => 1682838973
+]
+2023-04-30 07:16:20 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:16:20 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58948'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682838980.471
+    'REQUEST_TIME' => 1682838980
+]
+2023-04-30 07:18:34 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:18:34 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59002'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1682839114.6178
+    'REQUEST_TIME' => 1682839114
+]
+2023-04-30 07:20:04 [::1][-][-][error][Error] Error: Class 'app\models\User' not found in C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php:43
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(176): app\modules\api\controllers\NoteController->beforeAction()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2023-04-30 07:20:04 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59042'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/note/get-note'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/note/get-note'
+    'PHP_SELF' => '/index.php/api/note/get-note'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => '_csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_ACCEPT' => '*/*'
+    'REQUEST_TIME_FLOAT' => 1682839204.311
+    'REQUEST_TIME' => 1682839204
+]
+2023-04-30 07:21:03 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: User not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php:51
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(176): app\modules\api\controllers\NoteController->beforeAction()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2023-04-30 07:21:03 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59056'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/note/get-note'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/note/get-note'
+    'PHP_SELF' => '/index.php/api/note/get-note'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => '_csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_ACCEPT' => '*/*'
+    'REQUEST_TIME_FLOAT' => 1682839263.2435
+    'REQUEST_TIME' => 1682839263
+]
+2023-04-30 07:21:31 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: User not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php:51
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(176): app\modules\api\controllers\NoteController->beforeAction()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2023-04-30 07:21:31 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59082'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/note/get-note'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/note/get-note'
+    'PHP_SELF' => '/index.php/api/note/get-note'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_ACCEPT' => '*/*'
+    'REQUEST_TIME_FLOAT' => 1682839291.035
+    'REQUEST_TIME' => 1682839291
+]
+2023-04-30 07:22:22 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (1, student, student@studerus.ru, $2y$13$Q2RMUZQ.fkVRF4e0uafF2.o3M5dREocQ/m/COFVr4jwsGQmxWvdx., null, 1682839341, 1682839341, null, null). in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (1, student, student@studerus.ru, $2y$13$Q2RMUZQ.fkVRF4e0uafF2.o3M5dREocQ/m/COFVr4jwsGQmxWvdx., null, 1682839341, 1682839341, null, null).
+The SQL being executed was: INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash") VALUES ('student@studerus.ru', 'student', 1682839341, 1682839341, NULL, NULL, '$2y$13$Q2RMUZQ.fkVRF4e0uafF2.o3M5dREocQ/m/COFVr4jwsGQmxWvdx.') RETURNING "id" in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (1, student, student@studerus.ru, $2y$13$Q2RMUZQ.fkVRF4e0uafF2.o3M5dREocQ/m/COFVr4jwsGQmxWvdx., null, 1682839341, 1682839341, null, null).
+)
+
+2023-04-30 07:22:21 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59095'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/register'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/register'
+    'PHP_SELF' => '/index.php/api/auth/register'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839341.1492
+    'REQUEST_TIME' => 1682839341
+]
+2023-04-30 07:22:56 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (2, student, student@studerus.ru, $2y$13$m8688.hYb/m5tLhpobtKZO4p2qpfelLLxR.8JTRFrOq66SwZWVIh., null, 1682839376, 1682839376, null, null). in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (2, student, student@studerus.ru, $2y$13$m8688.hYb/m5tLhpobtKZO4p2qpfelLLxR.8JTRFrOq66SwZWVIh., null, 1682839376, 1682839376, null, null).
+The SQL being executed was: INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash") VALUES ('student@studerus.ru', 'student', 1682839376, 1682839376, NULL, NULL, '$2y$13$m8688.hYb/m5tLhpobtKZO4p2qpfelLLxR.8JTRFrOq66SwZWVIh.') RETURNING "id" in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (2, student, student@studerus.ru, $2y$13$m8688.hYb/m5tLhpobtKZO4p2qpfelLLxR.8JTRFrOq66SwZWVIh., null, 1682839376, 1682839376, null, null).
+)
+
+2023-04-30 07:22:56 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59101'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/register'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/register'
+    'PHP_SELF' => '/index.php/api/auth/register'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839376.156
+    'REQUEST_TIME' => 1682839376
+]
+2023-04-30 07:23:58 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (3, student, student@studerus.ru, $2y$13$a3EK8eo4ZrsBnaSs3oyayeXn0yZqByHM4sIhPPKwPgLDBFMkq3S9., null, 1682839437, 1682839437, null, null). in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (3, student, student@studerus.ru, $2y$13$a3EK8eo4ZrsBnaSs3oyayeXn0yZqByHM4sIhPPKwPgLDBFMkq3S9., null, 1682839437, 1682839437, null, null).
+The SQL being executed was: INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash") VALUES ('student@studerus.ru', 'student', 1682839437, 1682839437, NULL, NULL, '$2y$13$a3EK8eo4ZrsBnaSs3oyayeXn0yZqByHM4sIhPPKwPgLDBFMkq3S9.') RETURNING "id" in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (3, student, student@studerus.ru, $2y$13$a3EK8eo4ZrsBnaSs3oyayeXn0yZqByHM4sIhPPKwPgLDBFMkq3S9., null, 1682839437, 1682839437, null, null).
+)
+
+2023-04-30 07:23:57 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59115'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/register'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/register'
+    'PHP_SELF' => '/index.php/api/auth/register'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839437.6855
+    'REQUEST_TIME' => 1682839437
+]
+2023-04-30 07:24:18 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (4, student, student@studerus.ru, $2y$13$TVWf5WEOGr5nqvEO.DDDSOrNoBIdD7tZ8mM.9l1XBNyVKVvwjqEx., null, 1682839458, 1682839458, null, null). in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (4, student, student@studerus.ru, $2y$13$TVWf5WEOGr5nqvEO.DDDSOrNoBIdD7tZ8mM.9l1XBNyVKVvwjqEx., null, 1682839458, 1682839458, null, null).
+The SQL being executed was: INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash") VALUES ('student@studerus.ru', 'student', 1682839458, 1682839458, NULL, NULL, '$2y$13$TVWf5WEOGr5nqvEO.DDDSOrNoBIdD7tZ8mM.9l1XBNyVKVvwjqEx.') RETURNING "id" in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (4, student, student@studerus.ru, $2y$13$TVWf5WEOGr5nqvEO.DDDSOrNoBIdD7tZ8mM.9l1XBNyVKVvwjqEx., null, 1682839458, 1682839458, null, null).
+)
+
+2023-04-30 07:24:18 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59124'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/register'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/register'
+    'PHP_SELF' => '/index.php/api/auth/register'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839458.361
+    'REQUEST_TIME' => 1682839458
+]
+2023-04-30 07:25:02 [::1][-][l8465pjpudf3tdfaqg955h97mn][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-04-30 07:25:02 [::1][-][l8465pjpudf3tdfaqg955h97mn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l8465pjpudf3tdfaqg955h97mn'
+    '_csrf' => '2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59135'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=l8465pjpudf3tdfaqg955h97mn; _csrf=2e370cbf7923ea1f53921ed299040c17285e9d097154691351a34f0ba23d722ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Zs-JBtoxu6bNJd7aEQ0LPXjvYRGc5uE6%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'REQUEST_TIME_FLOAT' => 1682839502.062
+    'REQUEST_TIME' => 1682839502
+]
+2023-04-30 07:25:45 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (5, student, student@studerus.ru, $2y$13$Ep39DoBCgcJwY1zdteHglOy.AE2PDaO8QQCl5JgZDWDF03Fw4jhcq, null, 1682839544, 1682839544, null, null). in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (5, student, student@studerus.ru, $2y$13$Ep39DoBCgcJwY1zdteHglOy.AE2PDaO8QQCl5JgZDWDF03Fw4jhcq, null, 1682839544, 1682839544, null, null).
+The SQL being executed was: INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash") VALUES ('student@studerus.ru', 'student', 1682839544, 1682839544, NULL, NULL, '$2y$13$Ep39DoBCgcJwY1zdteHglOy.AE2PDaO8QQCl5JgZDWDF03Fw4jhcq') RETURNING "id" in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (5, student, student@studerus.ru, $2y$13$Ep39DoBCgcJwY1zdteHglOy.AE2PDaO8QQCl5JgZDWDF03Fw4jhcq, null, 1682839544, 1682839544, null, null).
+)
+
+2023-04-30 07:25:44 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59170'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/register'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/register'
+    'PHP_SELF' => '/index.php/api/auth/register'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839544.255
+    'REQUEST_TIME' => 1682839544
+]
+2023-04-30 07:27:08 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (6, student, student@studerus.ru, $2y$13$EccpinTkVgsq0rLPYScRTuFZkFSCrduPDXbH7q0NfvbQHBZPKhCWe, null, 1682839627, 1682839627, null, null). in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (6, student, student@studerus.ru, $2y$13$EccpinTkVgsq0rLPYScRTuFZkFSCrduPDXbH7q0NfvbQHBZPKhCWe, null, 1682839627, 1682839627, null, null).
+The SQL being executed was: INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash") VALUES ('student@studerus.ru', 'student', 1682839627, 1682839627, NULL, NULL, '$2y$13$EccpinTkVgsq0rLPYScRTuFZkFSCrduPDXbH7q0NfvbQHBZPKhCWe') RETURNING "id" in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (6, student, student@studerus.ru, $2y$13$EccpinTkVgsq0rLPYScRTuFZkFSCrduPDXbH7q0NfvbQHBZPKhCWe, null, 1682839627, 1682839627, null, null).
+)
+
+2023-04-30 07:27:07 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60081'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/register'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/register'
+    'PHP_SELF' => '/index.php/api/auth/register'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839627.1837
+    'REQUEST_TIME' => 1682839627
+]
+2023-04-30 07:28:17 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\db\IntegrityException] PDOException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (7, student, student@studerus.ru, $2y$13$1SbxA13NlcH7s6ad.CzjEekiEXftoFuEryq1grJHDuqg7MxTFUE6G, null, 1682839697, 1682839697, null, null). in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23502]: Not null violation: 7 ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (7, student, student@studerus.ru, $2y$13$1SbxA13NlcH7s6ad.CzjEekiEXftoFuEryq1grJHDuqg7MxTFUE6G, null, 1682839697, 1682839697, null, null).
+The SQL being executed was: INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash") VALUES ('student@studerus.ru', 'student', 1682839697, 1682839697, NULL, NULL, '$2y$13$1SbxA13NlcH7s6ad.CzjEekiEXftoFuEryq1grJHDuqg7MxTFUE6G') RETURNING "id" in C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\Command.php(424): yii\db\Command->queryInternal()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\pgsql\Schema.php(646): yii\db\Command->queryOne()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(604): yii\db\pgsql\Schema->insert()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\db\BaseActiveRecord.php(676): yii\db\ActiveRecord->insert()
+#7 C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php(76): yii\db\BaseActiveRecord->save()
+#8 [internal function]: app\modules\api\controllers\AuthController->actionRegister()
+#9 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ОШИБКА:  значение NULL в столбце "refresh_token_hash" отношения "user" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (7, student, student@studerus.ru, $2y$13$1SbxA13NlcH7s6ad.CzjEekiEXftoFuEryq1grJHDuqg7MxTFUE6G, null, 1682839697, 1682839697, null, null).
+)
+
+2023-04-30 07:28:16 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60100'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/register'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/register'
+    'PHP_SELF' => '/index.php/api/auth/register'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839696.9899
+    'REQUEST_TIME' => 1682839696
+]
+2023-04-30 07:31:10 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: User not found in C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php:166
+Stack trace:
+#0 [internal function]: app\modules\api\controllers\AuthController->actionLogin()
+#1 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#4 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-04-30 07:31:10 [::1][-][vm32tkmk9kfec1rpfqfb82c3ad][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vm32tkmk9kfec1rpfqfb82c3ad'
+    '_csrf' => '6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60129'
+    'SERVER_SOFTWARE' => 'PHP 7.4.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/auth/login'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\sadsa\\Desktop\\Диплом\\studerus_api\\web\\index.php'
+    'PATH_INFO' => '/api/auth/login'
+    'PHP_SELF' => '/index.php/api/auth/login'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'insomnia/2023.2.0'
+    'HTTP_COOKIE' => 'PHPSESSID=vm32tkmk9kfec1rpfqfb82c3ad; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_CONTENT_LENGTH' => '93'
+    'REQUEST_TIME_FLOAT' => 1682839870.3151
+    'REQUEST_TIME' => 1682839870
+]

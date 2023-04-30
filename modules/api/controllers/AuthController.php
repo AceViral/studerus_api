@@ -3,7 +3,7 @@
 namespace app\modules\api\controllers;
 
 use Yii;
-use app\models\User;
+use app\modules\api\models\User;
 use yii\rest\Controller;
 use yii\web\BadRequestHttpException;
 use yii\web\ForbiddenHttpException;
@@ -81,12 +81,13 @@ class AuthController extends Controller
                          'email' => $user->email,
                     ]
                );
-
+               Yii::debug('$jwt', $jwt);
                $refresh_token = $user->generateRefreshToken(
                     [
                          'user_id' => $user->id,
                     ]
                );
+               Yii::debug('$refresh_token', $refresh_token);
                $user->refresh_token = $refresh_token;
                $userSaved = $user->save();
 
@@ -166,22 +167,6 @@ class AuthController extends Controller
           }
 
           return $out;
-     }
-
-     public function actionCheckUser()
-     {
-          $jwt = Yii::$app->request->headers->get('Authorization');
-          $jwt = substr($jwt, 7);
-
-          if (!$jwt) {
-               throw new UnauthorizedHttpException('Token not provided.');
-          }
-
-          $decoded = User::getUserDataFromJWT($jwt);
-
-          return [
-               'user_data' => $decoded,
-          ];
      }
 
      public function actionRefresh()

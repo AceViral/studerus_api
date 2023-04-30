@@ -4,8 +4,8 @@ namespace app\modules\api\controllers;
 
 use Yii;
 use yii\rest\ActiveController;
-use app\models\User;
-use app\models\Note;
+use app\modules\api\models\User;
+use app\modules\api\models\Note;
 
 class NoteController extends ActiveController
 {
