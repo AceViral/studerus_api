@@ -155,40 +155,51 @@ class User extends ActiveRecord implements IdentityInterface
         $this->save();
     }
 
+    public function generateAccessToken($payload)
+    {
+        $token = [
+            'iss' => $_ENV['ISSUER_FOR_TOKENS'],
+            'aud' =>  $_ENV['AUDIENCE_FOR_TOKENS'],
+            'iat' => time(),
+            'nbf' => time(),
+            'exp' => time() + $_ENV['EXP_TIME_FOR_ACCESS_TOKEN'],
+            'data' => $payload
+        ];
+
+        return JWT::encode($token, $_ENV['ACCESS_TOKEN_KEY'], $_ENV['ALGORITHM_FOR_TOKENS']);
+    }
+
+    public static function getUserDataFromAccessToken($jwt)
+    {
+        try {
+            $decoded = JWT::decode($jwt, new Key($_ENV['ACCESS_TOKEN_KEY'],  $_ENV['ALGORITHM_FOR_TOKENS']));
+        } catch (\Exception $e) {
+            throw new UnauthorizedHttpException('Invalid access token.');
+        }
+
+        return $decoded;
+    }
+
     public function generateRefreshToken($payload)
     {
         $token = [
-            'iss' => 'your-issuer-here',
-            'aud' => 'your-audience-here',
+            'iss' =>  $_ENV['ISSUER_FOR_TOKENS'],
+            'aud' =>  $_ENV['AUDIENCE_FOR_TOKENS'],
             'iat' => time(),
             'nbf' => time(),
-            'exp' => time() + 15000000,
+            'exp' => time() + $_ENV['EXP_TIME_FOR_REFRESH_TOKEN'],
             'data' => $payload
         ];
 
-        return JWT::encode($token, 'your-secret-key-here', 'HS256');
+        return JWT::encode($token, $_ENV['REFRESH_TOKEN_KEY'],  $_ENV['ALGORITHM_FOR_TOKENS']);
     }
 
-    public function generateJWTtoken($payload)
-    {
-        $token = [
-            'iss' => 'your-issuer-here',
-            'aud' => 'your-audience-here',
-            'iat' => time(),
-            'nbf' => time(),
-            'exp' => time() + 600,
-            'data' => $payload
-        ];
-
-        return JWT::encode($token, 'your-secret-key-here', 'HS256');
-    }
-
-    public static function getUserDataFromJWT($jwt)
+    public static function getUserDataFromRefreshToken($jwt)
     {
         try {
-            $decoded = JWT::decode($jwt, new Key('your-secret-key-here', 'HS256'));
+            $decoded = JWT::decode($jwt, new Key($_ENV['REFRESH_TOKEN_KEY'],  $_ENV['ALGORITHM_FOR_TOKENS']));
         } catch (\Exception $e) {
-            throw new UnauthorizedHttpException('Invalid token.');
+            throw new UnauthorizedHttpException('Invalid refresh token.');
         }
 
         return $decoded;

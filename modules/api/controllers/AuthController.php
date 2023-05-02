@@ -71,20 +71,18 @@ class AuthController extends Controller
                $user->updated_at = time();
                $user->save();
 
-               $jwt = $user->generateJWTtoken(
+               $access_token = $user->generateAccessToken(
                     [
                          'user_id' => $user->id,
                          'username' => $user->username,
                          'email' => $user->email,
                     ]
                );
-               Yii::debug('$jwt', $jwt);
                $refresh_token = $user->generateRefreshToken(
                     [
                          'user_id' => $user->id,
                     ]
                );
-               Yii::debug('$refresh_token', $refresh_token);
                $user->refresh_token = $refresh_token;
                $userSaved = $user->save();
 
@@ -96,7 +94,7 @@ class AuthController extends Controller
                     ];
                } else {
                     $out['user'] = $user->getAttributes();
-                    $out['access_token'] = $jwt;
+                    $out['access_token'] = $access_token;
                     $out['refresh_token'] = $refresh_token;
                }
           } else {
@@ -128,7 +126,7 @@ class AuthController extends Controller
                if (Yii::$app->security->validatePassword($password, $user->password_hash)) {
                     $user->updateFailedLoginAttempts(true);
 
-                    $jwt = $user->generateJWTtoken(
+                    $access_token = $user->generateAccessToken(
                          [
                               'user_id' => $user->id,
                               'username' => $user->username,
@@ -152,7 +150,7 @@ class AuthController extends Controller
                          ];
                     } else {
                          $out['user'] = $user->getAttributes();
-                         $out['access_token'] = $jwt;
+                         $out['access_token'] = $access_token;
                          $out['refresh_token'] = $refresh_token;
                     }
                } else {
@@ -170,7 +168,7 @@ class AuthController extends Controller
           $refresh_token = Yii::$app->request->headers->get('Authorization');
           $refresh_token = substr($refresh_token, 7);
 
-          $decoded = User::getUserDataFromJWT($refresh_token);
+          $decoded = User::getUserDataFromAccessToken($refresh_token);
 
           $user = User::find()
                ->where(['id' => $decoded->data->user_id])
@@ -188,7 +186,7 @@ class AuthController extends Controller
 
                     $userSaved = $user->save();
 
-                    $jwt = $user->generateJWTtoken(
+                    $access_token = $user->generateAccessToken(
                          [
                               'user_id' => $user->id,
                               'username' => $user->username,
@@ -203,7 +201,7 @@ class AuthController extends Controller
                               $user->getAttributes(),
                          ];
                     } else {
-                         $out['access_token'] = $jwt;
+                         $out['access_token'] = $access_token;
                          $out['refresh_token'] = $refresh_token;
                          $out['user'] = $user->getAttributes();
                     }

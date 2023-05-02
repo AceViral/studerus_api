@@ -44,7 +44,7 @@ $config = [
             // Защита от CSRF А2 А4
             'enableCsrfValidation' => true,
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '4f3482998f3207b4312a577c3e0e6bd0',
+            'cookieValidationKey' => $_ENV['COOKIE_VALIDATION_KEY'],
             'parsers' => [
                 'application/json' => 'yii\web\JsonParser',
             ],

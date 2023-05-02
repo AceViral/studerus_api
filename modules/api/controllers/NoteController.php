@@ -40,7 +40,7 @@ class NoteController extends ActiveController
                 throw new \yii\web\UnauthorizedHttpException('Token not provided.');
             }
 
-            $decoded = User::getUserDataFromJWT($jwt);
+            $decoded = User::getUserDataFromAccessToken($jwt);
 
             Yii::debug("asdadasdasd", $decoded->data->user_id);
             $user = User::find()
