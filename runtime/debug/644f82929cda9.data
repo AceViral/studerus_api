@@ -1,0 +1,410 @@
+a:14:{s:6:"config";s:1636:"a:5:{s:10:"phpVersion";s:6:"7.4.30";s:10:"yiiVersion";s:6:"2.0.47";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.47";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.4.30";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:5:{s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:83:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.22.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:78:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:78:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-faker/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:76:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-gii/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:86:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-symfonymailer/src";}}}}";s:3:"log";s:9955:"a:1:{s:8:"messages";a:20:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1682932370.58664;i:4;a:0:{}i:5;i:2539832;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1682932370.592124;i:4;a:0:{}i:5;i:2651232;}i:2;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1682932370.592165;i:4;a:0:{}i:5;i:2652032;}i:3;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1682932370.640227;i:4;a:0:{}i:5;i:4028360;}i:4;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1682932370.658883;i:4;a:0:{}i:5;i:4531632;}i:5;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1682932370.660104;i:4;a:0:{}i:5;i:4556648;}i:15;a:6:{i:0;s:36:"Route requested: 'api/auth/register'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1682932370.664765;i:4;a:0:{}i:5;i:4721544;}i:16;a:6:{i:0;s:19:"Loading module: api";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1682932370.66478;i:4;a:0:{}i:5;i:4723168;}i:17;a:6:{i:0;s:31:"Route to run: api/auth/register";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1682932370.670035;i:4;a:0:{}i:5;i:4879672;}i:18;a:6:{i:0;s:39:"Rate limit skipped: user not logged in.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1682932370.6748;i:4;a:0:{}i:5;i:5087088;}i:19;a:6:{i:0;s:76:"Running action: app\modules\api\controllers\AuthController::actionRegister()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1682932370.674939;i:4;a:0:{}i:5;i:5090136;}i:20;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5432;dbname=studerus";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1682932370.696593;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6854296;}i:23;a:6:{i:0;s:84:"SELECT * FROM "user" WHERE ("email"='student@studerus.ru') OR ("username"='student')";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.729036;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6855704;}i:26;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.732491;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6868896;}i:29;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.746789;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6912064;}i:32;a:6:{i:0;s:4:"$jwt";i:1;i:8;i:2;s:320:"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgyOTMyMzcwLCJuYmYiOjE2ODI5MzIzNzAsImV4cCI6MTY4MjkzMjk3MCwiZGF0YSI6eyJ1c2VyX2lkIjpudWxsLCJ1c2VybmFtZSI6InN0dWRlbnQiLCJlbWFpbCI6InN0dWRlbnRAc3R1ZGVydXMucnUifX0.B2eRQhpm_OCGa_eVofJkZQNxxzSRC80Bc4cWBe3wcz8";i:3;d:1682932370.750276;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:82;s:8:"function";s:5:"debug";s:5:"class";s:11:"yii\BaseYii";s:4:"type";s:2:"::";}}i:5;i:6985176;}i:33;a:6:{i:0;s:14:"$refresh_token";i:1;i:8;i:2;s:252:"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgyOTMyMzcwLCJuYmYiOjE2ODI5MzIzNzAsImV4cCI6MTY5NzkzMjM3MCwiZGF0YSI6eyJ1c2VyX2lkIjpudWxsfX0.erST7nMFHsD08dn5kAJwe51IUl2e20xvBjJGXZ-es_k";i:3;d:1682932370.750298;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:88;s:8:"function";s:5:"debug";s:5:"class";s:11:"yii\BaseYii";s:4:"type";s:2:"::";}}i:5;i:6987904;}i:34;a:6:{i:0;s:78:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."email"='student@studerus.ru')";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.753319;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7256080;}i:37;a:6:{i:0;s:69:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."username"='student')";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.754035;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7260360;}i:40;a:6:{i:0;s:631:"INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash", "refresh_token_hash") VALUES ('student@studerus.ru', 'student', 1682932370, 1682932370, NULL, NULL, '$2y$13$51KwmZtRSNwrDszqhx5lRerApiV344bJQs2qb7AdnsUwCayECF0Hy', '67bf540051176fe12ddcac949d0a18e456fae3be1725c00f8aa4433f76587dfdeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgyOTMyMzcwLCJuYmYiOjE2ODI5MzIzNzAsImV4cCI6MTY5NzkzMjM3MCwiZGF0YSI6eyJ1c2VyX2lkIjpudWxsfX0.erST7nMFHsD08dn5kAJwe51IUl2e20xvBjJGXZ-es_k') RETURNING "id"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1682932371.173175;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7262720;}}}";s:9:"profiling";s:14032:"a:3:{s:6:"memory";i:7522952;s:4:"time";d:0.6432030200958252;s:8:"messages";a:14:{i:21;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5432;dbname=studerus";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1682932370.696617;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6855424;}i:22;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5432;dbname=studerus";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1682932370.729006;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6857360;}i:24;a:6:{i:0;s:84:"SELECT * FROM "user" WHERE ("email"='student@studerus.ru') OR ("username"='student')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.729057;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6858104;}i:25;a:6:{i:0;s:84:"SELECT * FROM "user" WHERE ("email"='student@studerus.ru') OR ("username"='student')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.731616;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6860000;}i:27;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.732532;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6879600;}i:28;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.745848;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6896976;}i:30;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.746813;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6916368;}i:31;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.749065;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6917936;}i:35;a:6:{i:0;s:78:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."email"='student@studerus.ru')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.753342;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7258592;}i:36;a:6:{i:0;s:78:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."email"='student@studerus.ru')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.75378;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7259824;}i:38;a:6:{i:0;s:69:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."username"='student')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.754052;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7262904;}i:39;a:6:{i:0;s:69:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."username"='student')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.754284;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7264136;}i:41;a:6:{i:0;s:631:"INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash", "refresh_token_hash") VALUES ('student@studerus.ru', 'student', 1682932370, 1682932370, NULL, NULL, '$2y$13$51KwmZtRSNwrDszqhx5lRerApiV344bJQs2qb7AdnsUwCayECF0Hy', '67bf540051176fe12ddcac949d0a18e456fae3be1725c00f8aa4433f76587dfdeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgyOTMyMzcwLCJuYmYiOjE2ODI5MzIzNzAsImV4cCI6MTY5NzkzMjM3MCwiZGF0YSI6eyJ1c2VyX2lkIjpudWxsfX0.erST7nMFHsD08dn5kAJwe51IUl2e20xvBjJGXZ-es_k') RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932371.173194;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7263472;}i:42;a:6:{i:0;s:631:"INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash", "refresh_token_hash") VALUES ('student@studerus.ru', 'student', 1682932370, 1682932370, NULL, NULL, '$2y$13$51KwmZtRSNwrDszqhx5lRerApiV344bJQs2qb7AdnsUwCayECF0Hy', '67bf540051176fe12ddcac949d0a18e456fae3be1725c00f8aa4433f76587dfdeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgyOTMyMzcwLCJuYmYiOjE2ODI5MzIzNzAsImV4cCI6MTY5NzkzMjM3MCwiZGF0YSI6eyJ1c2VyX2lkIjpudWxsfX0.erST7nMFHsD08dn5kAJwe51IUl2e20xvBjJGXZ-es_k') RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932371.181334;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7265440;}}}";s:2:"db";s:13171:"a:1:{s:8:"messages";a:12:{i:24;a:6:{i:0;s:84:"SELECT * FROM "user" WHERE ("email"='student@studerus.ru') OR ("username"='student')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.729057;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6858104;}i:25;a:6:{i:0;s:84:"SELECT * FROM "user" WHERE ("email"='student@studerus.ru') OR ("username"='student')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.731616;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:60;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6860000;}i:27;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.732532;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6879600;}i:28;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.745848;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6896976;}i:30;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.746813;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6916368;}i:31;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.749065;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:69;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6917936;}i:35;a:6:{i:0;s:78:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."email"='student@studerus.ru')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.753342;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7258592;}i:36;a:6:{i:0;s:78:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."email"='student@studerus.ru')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.75378;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7259824;}i:38;a:6:{i:0;s:69:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."username"='student')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.754052;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7262904;}i:39;a:6:{i:0;s:69:"SELECT EXISTS(SELECT * FROM "user" WHERE "user"."username"='student')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932370.754284;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7264136;}i:41;a:6:{i:0;s:631:"INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash", "refresh_token_hash") VALUES ('student@studerus.ru', 'student', 1682932370, 1682932370, NULL, NULL, '$2y$13$51KwmZtRSNwrDszqhx5lRerApiV344bJQs2qb7AdnsUwCayECF0Hy', '67bf540051176fe12ddcac949d0a18e456fae3be1725c00f8aa4433f76587dfdeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgyOTMyMzcwLCJuYmYiOjE2ODI5MzIzNzAsImV4cCI6MTY5NzkzMjM3MCwiZGF0YSI6eyJ1c2VyX2lkIjpudWxsfX0.erST7nMFHsD08dn5kAJwe51IUl2e20xvBjJGXZ-es_k') RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1682932371.173194;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7263472;}i:42;a:6:{i:0;s:631:"INSERT INTO "user" ("email", "username", "created_at", "updated_at", "login_locked_until", "failed_login_attempts", "password_hash", "refresh_token_hash") VALUES ('student@studerus.ru', 'student', 1682932370, 1682932370, NULL, NULL, '$2y$13$51KwmZtRSNwrDszqhx5lRerApiV344bJQs2qb7AdnsUwCayECF0Hy', '67bf540051176fe12ddcac949d0a18e456fae3be1725c00f8aa4433f76587dfdeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgyOTMyMzcwLCJuYmYiOjE2ODI5MzIzNzAsImV4cCI6MTY5NzkzMjM3MCwiZGF0YSI6eyJ1c2VyX2lkIjpudWxsfX0.erST7nMFHsD08dn5kAJwe51IUl2e20xvBjJGXZ-es_k') RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1682932371.181334;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\AuthController.php";s:4:"line";i:90;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7265440;}}}";s:5:"event";s:3870:"a:22:{i:0;a:5:{s:4:"time";d:1682932370.663577;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1682932370.670484;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1682932370.670502;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"app\modules\api\Module";}i:3;a:5:{s:4:"time";d:1682932370.674921;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:42:"app\modules\api\controllers\AuthController";}i:4;a:5:{s:4:"time";d:1682932370.687615;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:5;a:5:{s:4:"time";d:1682932370.728999;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:6;a:5:{s:4:"time";d:1682932370.73193;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:15:"app\models\User";}i:7;a:5:{s:4:"time";d:1682932370.750466;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:15:"app\models\User";}i:8;a:5:{s:4:"time";d:1682932370.753009;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:9;a:5:{s:4:"time";d:1682932370.75304;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:10;a:5:{s:4:"time";d:1682932370.753954;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:11;a:5:{s:4:"time";d:1682932370.753978;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:12;a:5:{s:4:"time";d:1682932370.754387;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:15:"app\models\User";}i:13;a:5:{s:4:"time";d:1682932371.173065;s:4:"name";s:12:"beforeInsert";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:15:"app\models\User";}i:14;a:5:{s:4:"time";d:1682932371.18185;s:4:"name";s:11:"afterInsert";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:15:"app\models\User";}i:15;a:5:{s:4:"time";d:1682932371.181897;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:42:"app\modules\api\controllers\AuthController";}i:16;a:5:{s:4:"time";d:1682932371.18227;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"app\modules\api\Module";}i:17;a:5:{s:4:"time";d:1682932371.182276;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:18;a:5:{s:4:"time";d:1682932371.182283;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:19;a:5:{s:4:"time";d:1682932371.182288;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:20;a:5:{s:4:"time";d:1682932371.183769;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:21;a:5:{s:4:"time";d:1682932371.183799;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1682932370.541986;s:3:"end";d:1682932371.185257;s:6:"memory";i:7522952;}";s:4:"dump";s:6:"a:0:{}";s:6:"router";s:1880:"a:3:{s:8:"messages";a:9:{i:6;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1682932370.66463;i:4;a:0:{}i:5;i:4715656;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1682932370.664656;i:4;a:0:{}i:5;i:4716408;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1682932370.664666;i:4;a:0:{}i:5;i:4717160;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1682932370.664675;i:4;a:0:{}i:5;i:4718232;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1682932370.664684;i:4;a:0:{}i:5;i:4718984;}i:11;a:6:{i:0;a:3:{s:4:"rule";s:25:"OPTIONS api/auth/register";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1682932370.664715;i:4;a:0:{}i:5;i:4720168;}i:12;a:6:{i:0;s:47:"Request parsed with URL rule: api/auth/register";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1682932370.664737;i:4;a:0:{}i:5;i:4721456;}i:13;a:6:{i:0;a:3:{s:4:"rule";s:22:"POST api/auth/register";s:5:"match";b:1;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1682932370.664746;i:4;a:0:{}i:5;i:4721800;}i:14;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:1;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1682932370.664754;i:4;a:0:{}i:5;i:4722176;}}s:5:"route";s:17:"api/auth/register";s:6:"action";s:60:"app\modules\api\controllers\AuthController::actionRegister()";}";s:7:"request";s:2958:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:6:{s:4:"host";s:14:"localhost:8080";s:10:"user-agent";s:17:"insomnia/2023.2.0";s:6:"cookie";s:172:"_csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D";s:12:"content-type";s:16:"application/json";s:6:"accept";s:3:"*/*";s:14:"content-length";s:2:"93";}s:15:"responseHeaders";a:9:{s:12:"X-Powered-By";s:10:"PHP/7.4.30";s:27:"Access-Control-Allow-Origin";s:21:"http://localhost:3000";s:32:"Access-Control-Allow-Credentials";s:4:"true";s:29:"Access-Control-Expose-Headers";s:27:"Content-Type, Authorization";s:28:"Access-Control-Allow-Headers";s:27:"Content-Type, Authorization";s:12:"Content-Type";s:31:"application/json; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"644f82929cda9";s:16:"X-Debug-Duration";s:3:"643";s:12:"X-Debug-Link";s:37:"/debug/default/view?tag=644f82929cda9";}s:5:"route";s:17:"api/auth/register";s:6:"action";s:60:"app\modules\api\controllers\AuthController::actionRegister()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:4:"POST";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:3:{s:12:"Content Type";s:16:"application/json";s:3:"Raw";s:93:"{
+    "username": "student",
+    "email": "student@studerus.ru",
+    "password": "Te$t1234"
+}";s:7:"Decoded";a:3:{s:8:"username";s:7:"student";s:5:"email";s:19:"student@studerus.ru";s:8:"password";s:8:"Te$t1234";}}s:6:"SERVER";a:23:{s:13:"DOCUMENT_ROOT";s:52:"C:\Users\sadsa\Desktop\Диплом\studerus_api\web";s:11:"REMOTE_ADDR";s:3:"::1";s:11:"REMOTE_PORT";s:5:"57497";s:15:"SERVER_SOFTWARE";s:29:"PHP 7.4.30 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:18:"/api/auth/register";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:62:"C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php";s:9:"PATH_INFO";s:18:"/api/auth/register";s:8:"PHP_SELF";s:28:"/index.php/api/auth/register";s:9:"HTTP_HOST";s:14:"localhost:8080";s:15:"HTTP_USER_AGENT";s:17:"insomnia/2023.2.0";s:11:"HTTP_COOKIE";s:172:"_csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D";s:12:"CONTENT_TYPE";s:16:"application/json";s:17:"HTTP_CONTENT_TYPE";s:16:"application/json";s:11:"HTTP_ACCEPT";s:3:"*/*";s:14:"CONTENT_LENGTH";s:2:"93";s:19:"HTTP_CONTENT_LENGTH";s:2:"93";s:18:"REQUEST_TIME_FLOAT";d:1682932370.529244;s:12:"REQUEST_TIME";i:1682932370;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:1:{s:5:"_csrf";s:130:"6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:"_csrf";i:1;s:32:"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}";s:4:"user";s:2:"N;";s:5:"asset";s:6:"a:0:{}";s:7:"summary";a:12:{s:3:"tag";s:13:"644f82929cda9";s:3:"url";s:39:"http://localhost:8080/api/auth/register";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:3:"::1";s:4:"time";d:1682932370.529244;s:10:"statusCode";i:200;s:8:"sqlCount";i:6;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:7522952;s:14:"processingTime";d:0.6432030200958252;}s:10:"exceptions";a:0:{}}

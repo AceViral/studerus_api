@@ -7,8 +7,6 @@ use app\modules\api\models\User;
 use yii\rest\Controller;
 use yii\web\BadRequestHttpException;
 use yii\web\ForbiddenHttpException;
-use yii\web\ServerErrorHttpException;
-use yii\web\UnauthorizedHttpException;
 use yii\web\NotFoundHttpException;
 
 class AuthController extends Controller
@@ -30,7 +28,7 @@ class AuthController extends Controller
                'class' => \yii\filters\Cors::class,
                'cors' => [
                     'Origin' => ['http://localhost:3000'],
-                    'Access-Control-Request-Method' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+                    'Access-Control-Request-Method' => ['POST'],
                     'Access-Control-Request-Headers' => ['*'],
                     'Access-Control-Allow-Credentials' => true,
                     'Access-Control-Allow-Headers' => ['Content-Type', 'Authorization'],
@@ -71,9 +69,8 @@ class AuthController extends Controller
                $user->username = $username;
                $user->created_at = time();
                $user->updated_at = time();
-
-               // $userSaved = $user->save();
                $user->save();
+
                $jwt = $user->generateJWTtoken(
                     [
                          'user_id' => $user->id,
@@ -131,8 +128,6 @@ class AuthController extends Controller
                if (Yii::$app->security->validatePassword($password, $user->password_hash)) {
                     $user->updateFailedLoginAttempts(true);
 
-                    $userSaved = $user->save();
-
                     $jwt = $user->generateJWTtoken(
                          [
                               'user_id' => $user->id,
@@ -147,6 +142,7 @@ class AuthController extends Controller
                          ]
                     );
                     $user->refresh_token = $refresh_token;
+                    $userSaved = $user->save();
 
                     if (!$userSaved) {
                          $out['err']['user not saved'] = [
@@ -171,57 +167,53 @@ class AuthController extends Controller
 
      public function actionRefresh()
      {
-          $requestMethod = Yii::$app->request->getMethod();
-          Yii::info('requestMethod', $requestMethod);
-          if ($requestMethod !== 'OPTIONS') {
-               $refresh_token = Yii::$app->request->headers->get('Authorization');
-               Yii::info('refresh_token', $refresh_token);
-               $refresh_token = substr($refresh_token, 7);
+          $refresh_token = Yii::$app->request->headers->get('Authorization');
+          $refresh_token = substr($refresh_token, 7);
 
-               $decoded = User::getUserDataFromJWT($refresh_token);
+          $decoded = User::getUserDataFromJWT($refresh_token);
 
-               $user = User::find()
-                    ->where(['id' => $decoded->data->user_id])
-                    ->one();
+          $user = User::find()
+               ->where(['id' => $decoded->data->user_id])
+               ->one();
 
-               if ($user) {
-                    if (Yii::$app->security->validatePassword($refresh_token, $user->refresh_token_hash)) {
+          if ($user) {
+               if (Yii::$app->security->validatePassword($refresh_token, $user->refresh_token_hash)) {
 
-                         $refresh_token = $user->generateRefreshToken(
-                              [
-                                   'user_id' => $user->id,
-                              ]
-                         );
-                         $user->refresh_token = $refresh_token;
+                    $refresh_token = $user->generateRefreshToken(
+                         [
+                              'user_id' => $user->id,
+                         ]
+                    );
+                    $user->refresh_token = $refresh_token;
 
-                         $userSaved = $user->save();
+                    $userSaved = $user->save();
 
-                         $jwt = $user->generateJWTtoken(
-                              [
-                                   'user_id' => $user->id,
-                                   'username' => $user->username,
-                                   'email' => $user->email,
-                              ]
-                         );
+                    $jwt = $user->generateJWTtoken(
+                         [
+                              'user_id' => $user->id,
+                              'username' => $user->username,
+                              'email' => $user->email,
+                         ]
+                    );
 
-                         if (!$userSaved) {
-                              $out['err']['user not saved'] = [
-                                   $user->getErrors(),
-                                   $user->errors,
-                                   $user->getAttributes(),
-                              ];
-                         } else {
-                              $out['access_token'] = $jwt;
-                              $out['refresh_token'] = $refresh_token;
-                         }
+                    if (!$userSaved) {
+                         $out['err']['user not saved'] = [
+                              $user->getErrors(),
+                              $user->errors,
+                              $user->getAttributes(),
+                         ];
                     } else {
-                         $user->updateFailedLoginAttempts(false);
+                         $out['access_token'] = $jwt;
+                         $out['refresh_token'] = $refresh_token;
+                         $out['user'] = $user->getAttributes();
                     }
                } else {
-                    throw new NotFoundHttpException('User not found');
+                    $user->updateFailedLoginAttempts(false);
                }
-
-               return $out;
+          } else {
+               throw new NotFoundHttpException('User not found');
           }
+
+          return $out;
      }
 }

@@ -41,6 +41,8 @@ class NoteController extends ActiveController
             }
 
             $decoded = User::getUserDataFromJWT($jwt);
+
+            Yii::debug("asdadasdasd", $decoded->data->user_id);
             $user = User::find()
                 ->where(['id' => $decoded->data->user_id])
                 ->one();

@@ -92,14 +92,8 @@ $config = [
                         'OPTIONS login' => 'login',
                         'POST login' => 'login',
 
-                        'OPTIONS check-user' => 'check-user',
-                        'GET check-user' => 'check-user',
-
                         'OPTIONS refresh' => 'refresh',
                         'POST refresh' => 'refresh',
-
-                        'OPTIONS logout' => 'logout',
-                        'GET logout' => 'logout',
                     ],
                     'pluralize' => false,
                 ],
@@ -125,21 +119,7 @@ $config = [
                         '{id}' => '<id:\d+>',
                     ],
                     'pluralize' => false,
-                ],
-                [
-                    'class' => 'yii\rest\UrlRule',
-                    'controller' => [
-                        'api/token' => 'api/token'
-                    ],
-                    'extraPatterns' => [
-                        'OPTIONS generate-token' => 'generate-token',
-                        'POST generate-token' => 'generate-token',
-
-                        'OPTIONS validate-token' => 'validate-token',
-                        'GET validate-token' => 'validate-token',
-                    ],
-                    'pluralize' => false,
-                ],
+                ]
             ],
         ],
 

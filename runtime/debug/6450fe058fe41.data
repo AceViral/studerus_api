@@ -1,0 +1,406 @@
+a:14:{s:6:"config";s:1636:"a:5:{s:10:"phpVersion";s:6:"7.4.30";s:10:"yiiVersion";s:6:"2.0.47";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.47";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.4.30";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:5:{s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:83:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.22.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:78:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:78:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-faker/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:76:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-gii/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:86:"C:\Users\sadsa\Desktop\Диплом\studerus_api\vendor/yiisoft/yii2-symfonymailer/src";}}}}";s:3:"log";s:7963:"a:1:{s:8:"messages";a:18:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1683029509.58038;i:4;a:0:{}i:5;i:2539176;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1683029509.581215;i:4;a:0:{}i:5;i:2650576;}i:2;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1683029509.581224;i:4;a:0:{}i:5;i:2651376;}i:3;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1683029509.586585;i:4;a:0:{}i:5;i:3653344;}i:4;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1683029509.589048;i:4;a:0:{}i:5;i:4029336;}i:5;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1683029509.591997;i:4;a:0:{}i:5;i:4526936;}i:6;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1683029509.592238;i:4;a:0:{}i:5;i:4551952;}i:17;a:6:{i:0;s:36:"Route requested: 'api/note/get-note'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1683029509.59329;i:4;a:0:{}i:5;i:4718160;}i:18;a:6:{i:0;s:19:"Loading module: api";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1683029509.593295;i:4;a:0:{}i:5;i:4719784;}i:19;a:6:{i:0;s:31:"Route to run: api/note/get-note";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1683029509.595764;i:4;a:0:{}i:5;i:5062088;}i:20;a:6:{i:0;s:11:"asdadasdasd";i:1;i:8;i:2;i:17;i:3;d:1683029509.598559;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:45;s:8:"function";s:5:"debug";s:5:"class";s:11:"yii\BaseYii";s:4:"type";s:2:"::";}}i:5;i:5464192;}i:21;a:6:{i:0;s:34:"SELECT * FROM "user" WHERE "id"=17";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.605223;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6682648;}i:22;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5432;dbname=studerus";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1683029509.605241;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6685088;}i:27;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.6378;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6704784;}i:30;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.651078;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6813488;}i:33;a:6:{i:0;s:65:"Rate limit skipped: "user" does not implement RateLimitInterface.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1683029509.655202;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:56;s:8:"function";s:12:"beforeAction";s:5:"class";s:18:"yii\web\Controller";s:4:"type";s:2:"->";}}i:5;i:6948136;}i:34;a:6:{i:0;s:75:"Running action: app\modules\api\controllers\NoteController::actionGetNote()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1683029509.655264;i:4;a:0:{}i:5;i:6947488;}i:35;a:6:{i:0;s:39:"SELECT * FROM "note" WHERE "user_id"=17";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.655542;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:64;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6979096;}}}";s:9:"profiling";s:11060:"a:3:{s:6:"memory";i:7348544;s:4:"time";d:0.08747291564941406;s:8:"messages";a:10:{i:23;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5432;dbname=studerus";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1683029509.605245;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6686216;}i:24;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5432;dbname=studerus";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1683029509.635782;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6688152;}i:25;a:6:{i:0;s:34:"SELECT * FROM "user" WHERE "id"=17";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.635805;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6689456;}i:26;a:6:{i:0;s:34:"SELECT * FROM "user" WHERE "id"=17";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.637471;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6692312;}i:28;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.637824;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6715488;}i:29;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.650434;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6732864;}i:31;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.651098;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6817792;}i:32;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.6535;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6819360;}i:36;a:6:{i:0;s:39:"SELECT * FROM "note" WHERE "user_id"=17";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.655559;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:64;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6981560;}i:37;a:6:{i:0;s:39:"SELECT * FROM "note" WHERE "user_id"=17";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.656423;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:64;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6983216;}}}";s:2:"db";s:10197:"a:1:{s:8:"messages";a:8:{i:25;a:6:{i:0;s:34:"SELECT * FROM "user" WHERE "id"=17";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.635805;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6689456;}i:26;a:6:{i:0;s:34:"SELECT * FROM "user" WHERE "id"=17";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.637471;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6692312;}i:28;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.637824;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6715488;}i:29;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.650434;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6732864;}i:31;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.651098;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6817792;}i:32;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.6535;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:48;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6819360;}i:36;a:6:{i:0;s:39:"SELECT * FROM "note" WHERE "user_id"=17";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.655559;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:64;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6981560;}i:37;a:6:{i:0;s:39:"SELECT * FROM "note" WHERE "user_id"=17";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1683029509.656423;i:4;a:1:{i:0;a:5:{s:4:"file";s:91:"C:\Users\sadsa\Desktop\Диплом\studerus_api\modules\api\controllers\NoteController.php";s:4:"line";i:64;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6983216;}}}";s:5:"event";s:2859:"a:16:{i:0;a:5:{s:4:"time";d:1683029509.593047;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1683029509.59586;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1683029509.595866;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"app\modules\api\Module";}i:3;a:5:{s:4:"time";d:1683029509.60062;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:4;a:5:{s:4:"time";d:1683029509.635775;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:5;a:5:{s:4:"time";d:1683029509.637555;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"app\modules\api\models\User";}i:6;a:5:{s:4:"time";d:1683029509.653707;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"app\modules\api\models\User";}i:7;a:5:{s:4:"time";d:1683029509.655254;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:42:"app\modules\api\controllers\NoteController";}i:8;a:5:{s:4:"time";d:1683029509.655491;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:9;a:5:{s:4:"time";d:1683029509.656498;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:42:"app\modules\api\controllers\NoteController";}i:10;a:5:{s:4:"time";d:1683029509.656791;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"app\modules\api\Module";}i:11;a:5:{s:4:"time";d:1683029509.656796;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:12;a:5:{s:4:"time";d:1683029509.656802;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:13;a:5:{s:4:"time";d:1683029509.656807;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:14;a:5:{s:4:"time";d:1683029509.658977;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:15;a:5:{s:4:"time";d:1683029509.659005;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1683029509.573383;s:3:"end";d:1683029509.660907;s:6:"memory";i:7348544;}";s:4:"dump";s:6:"a:0:{}";s:6:"router";s:2068:"a:3:{s:8:"messages";a:10:{i:7;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1683029509.593248;i:4;a:0:{}i:5;i:4710880;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1683029509.593255;i:4;a:0:{}i:5;i:4711632;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1683029509.593259;i:4;a:0:{}i:5;i:4712704;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1683029509.593261;i:4;a:0:{}i:5;i:4713456;}i:11;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1683029509.593264;i:4;a:0:{}i:5;i:4714208;}i:12;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1683029509.593267;i:4;a:0:{}i:5;i:4714960;}i:13;a:6:{i:0;a:3:{s:4:"rule";s:25:"OPTIONS api/note/get-note";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1683029509.593275;i:4;a:0:{}i:5;i:4716144;}i:14;a:6:{i:0;s:47:"Request parsed with URL rule: api/note/get-note";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1683029509.593282;i:4;a:0:{}i:5;i:4717432;}i:15;a:6:{i:0;a:3:{s:4:"rule";s:21:"GET api/note/get-note";s:5:"match";b:1;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1683029509.593285;i:4;a:0:{}i:5;i:4717776;}i:16;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:1;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1683029509.593287;i:4;a:0:{}i:5;i:4718152;}}s:5:"route";s:17:"api/note/get-note";s:6:"action";s:59:"app\modules\api\controllers\NoteController::actionGetNote()";}";s:7:"request";s:3473:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:5:{s:4:"host";s:14:"localhost:8080";s:10:"user-agent";s:17:"insomnia/2023.2.0";s:6:"cookie";s:210:"PHPSESSID=fu2r9sk0u0f0r0k893namoeslt; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D";s:13:"authorization";s:324:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgzMDI5NDk1LCJuYmYiOjE2ODMwMjk0OTUsImV4cCI6MTY4MzAzMDA5NSwiZGF0YSI6eyJ1c2VyX2lkIjoxNywidXNlcm5hbWUiOiJzdHVkZW50IiwiZW1haWwiOiJzdHVkZW50QHN0dWRlcnVzLnJ1In19.Sb22OzA81BiWeSmG2lY76DLZy1EDXX0az4gb9l9Ma5c";s:6:"accept";s:3:"*/*";}s:15:"responseHeaders";a:13:{s:12:"X-Powered-By";s:10:"PHP/7.4.30";s:27:"Access-Control-Allow-Origin";s:21:"http://localhost:3000";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:4:"Vary";s:6:"Accept";s:32:"Access-Control-Allow-Credentials";s:4:"true";s:29:"Access-Control-Expose-Headers";s:27:"Content-Type, Authorization";s:28:"Access-Control-Allow-Headers";s:27:"Content-Type, Authorization";s:12:"Content-Type";s:31:"application/json; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"6450fe058fe41";s:16:"X-Debug-Duration";s:2:"87";s:12:"X-Debug-Link";s:37:"/debug/default/view?tag=6450fe058fe41";}s:5:"route";s:17:"api/note/get-note";s:6:"action";s:59:"app\modules\api\controllers\NoteController::actionGetNote()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:20:{s:13:"DOCUMENT_ROOT";s:52:"C:\Users\sadsa\Desktop\Диплом\studerus_api\web";s:11:"REMOTE_ADDR";s:3:"::1";s:11:"REMOTE_PORT";s:5:"55266";s:15:"SERVER_SOFTWARE";s:29:"PHP 7.4.30 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:18:"/api/note/get-note";s:14:"REQUEST_METHOD";s:3:"GET";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:62:"C:\Users\sadsa\Desktop\Диплом\studerus_api\web\index.php";s:9:"PATH_INFO";s:18:"/api/note/get-note";s:8:"PHP_SELF";s:28:"/index.php/api/note/get-note";s:9:"HTTP_HOST";s:14:"localhost:8080";s:15:"HTTP_USER_AGENT";s:17:"insomnia/2023.2.0";s:11:"HTTP_COOKIE";s:210:"PHPSESSID=fu2r9sk0u0f0r0k893namoeslt; _csrf=6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q-z3aTcPkursY6j8GFfQTUNV_6OPCw71%22%3B%7D";s:18:"HTTP_AUTHORIZATION";s:324:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5b3VyLWlzc3Vlci1oZXJlIiwiYXVkIjoieW91ci1hdWRpZW5jZS1oZXJlIiwiaWF0IjoxNjgzMDI5NDk1LCJuYmYiOjE2ODMwMjk0OTUsImV4cCI6MTY4MzAzMDA5NSwiZGF0YSI6eyJ1c2VyX2lkIjoxNywidXNlcm5hbWUiOiJzdHVkZW50IiwiZW1haWwiOiJzdHVkZW50QHN0dWRlcnVzLnJ1In19.Sb22OzA81BiWeSmG2lY76DLZy1EDXX0az4gb9l9Ma5c";s:11:"HTTP_ACCEPT";s:3:"*/*";s:18:"REQUEST_TIME_FLOAT";d:1683029509.572245;s:12:"REQUEST_TIME";i:1683029509;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:2:{s:9:"PHPSESSID";s:26:"fu2r9sk0u0f0r0k893namoeslt";s:5:"_csrf";s:130:"6ec233ca4bb99896660f8f767c87964ca5688325ad999a71e36340d7edca7bf8a:2:{i:0;s:5:"_csrf";i:1;s:32:"q-z3aTcPkursY6j8GFfQTUNV_6OPCw71";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:1:{s:7:"__flash";a:0:{}}}";s:4:"user";s:1233:"a:5:{s:2:"id";i:17;s:8:"identity";a:9:{s:2:"id";s:2:"17";s:8:"username";s:9:"'student'";s:5:"email";s:21:"'student@studerus.ru'";s:13:"password_hash";s:62:"'$2y$13$BWfQqdjM.sr0AGLmUn.iU.6kRLqmLFtv35b5L0DSLa.awvUciGnm6'";s:18:"refresh_token_hash";s:62:"'$2y$13$b1WT7pzxmg1IM4oe3hjeaO0SMFAqKnyr24GMDpusEjl9ES17chQFK'";s:10:"created_at";s:10:"1683029494";s:10:"updated_at";s:10:"1683029494";s:18:"login_locked_until";s:4:"null";s:21:"failed_login_attempts";s:4:"null";}s:10:"attributes";a:9:{i:0;a:2:{s:9:"attribute";s:2:"id";s:5:"label";s:2:"ID";}i:1;a:2:{s:9:"attribute";s:8:"username";s:5:"label";s:8:"Username";}i:2;a:2:{s:9:"attribute";s:5:"email";s:5:"label";s:5:"Email";}i:3;a:2:{s:9:"attribute";s:13:"password_hash";s:5:"label";s:13:"Password Hash";}i:4;a:2:{s:9:"attribute";s:18:"refresh_token_hash";s:5:"label";s:18:"Refresh Token Hash";}i:5;a:2:{s:9:"attribute";s:10:"created_at";s:5:"label";s:10:"Created At";}i:6;a:2:{s:9:"attribute";s:10:"updated_at";s:5:"label";s:10:"Updated At";}i:7;a:2:{s:9:"attribute";s:18:"login_locked_until";s:5:"label";s:18:"Login Locked Until";}i:8;a:2:{s:9:"attribute";s:21:"failed_login_attempts";s:5:"label";s:21:"Failed Login Attempts";}}s:13:"rolesProvider";N;s:19:"permissionsProvider";N;}";s:5:"asset";s:6:"a:0:{}";s:7:"summary";a:12:{s:3:"tag";s:13:"6450fe058fe41";s:3:"url";s:39:"http://localhost:8080/api/note/get-note";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:3:"::1";s:4:"time";d:1683029509.572245;s:10:"statusCode";i:200;s:8:"sqlCount";i:4;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:7348544;s:14:"processingTime";d:0.08747291564941406;}s:10:"exceptions";a:0:{}}
