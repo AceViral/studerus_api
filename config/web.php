@@ -80,6 +80,7 @@ $config = [
             'enableStrictParsing' => true,
             'showScriptName' => false,
             'rules' => [
+                '' => 'site/index',
                 [
                     'class' => 'yii\rest\UrlRule',
                     'controller' => [
