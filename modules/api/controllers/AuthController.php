@@ -17,9 +17,10 @@ class AuthController extends Controller
 
           $behaviors['contentNegotiator'] = [
                'class' => \yii\filters\ContentNegotiator::class,
+               'only' => ['register', 'login', 'refresh'],
                'formats' => [
-                    'application/json' => \yii\web\Response::FORMAT_JSON,
-               ],
+                    'application/json' => \yii\web\Response::FORMAT_JSON
+               ]
           ];
           // remove authentication filter
           $auth = $behaviors['authenticator'];

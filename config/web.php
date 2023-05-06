@@ -13,6 +13,15 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'response' => [
+            'class' => 'yii\web\Response',
+            'format' => yii\web\Response::FORMAT_JSON,
+            'charset' => 'UTF-8',
+            'on beforeSend' => function ($event) {
+                $response = $event->sender;
+                $response->headers->set('Content-Security-Policy', 'default-src "self"; script-src "self" http://localhost:3000');
+            },
+        ],
         'contentSecurityPolicy' => [
             'class' => \yii\filters\ContentSecurityPolicy::class,
             'policy' => [

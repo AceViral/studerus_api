@@ -14,6 +14,14 @@ class NoteController extends ActiveController
     {
         $behaviors = parent::behaviors();
 
+        $behaviors['contentNegotiator'] = [
+            'class' => \yii\filters\ContentNegotiator::class,
+            'only' => ['get-note', 'create-note', 'update-note', 'delete-note'],
+            'formats' => [
+                'application/json' => \yii\web\Response::FORMAT_JSON
+            ]
+        ];
+
         $behaviors['corsFilter'] = [
             'class' => \yii\filters\Cors::class,
             'cors' => [
