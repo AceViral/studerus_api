@@ -13,6 +13,14 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'request' => [
+            'class' => 'yii\web\Request',
+            'enableCsrfValidation' => false,
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ],
+            'ipHeaders' => ['X-Forwarded-For', 'X-Real-IP'],
+        ],
         'response' => [
             'class' => 'yii\web\Response',
             'format' => yii\web\Response::FORMAT_JSON,
@@ -133,6 +141,15 @@ $config = [
             ],
         ],
 
+    ],
+    'as access' => [
+        'class' => '\yii\filters\AccessControl',
+        'rules' => [
+            [
+                'allow' => true,
+                'ips' => ['127.0.0.1', '::1'], // Добавляем разрешенные IP адреса
+            ],
+        ],
     ],
     'modules' => [
         'api' => [
