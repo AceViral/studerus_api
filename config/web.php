@@ -13,32 +13,6 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
-        'ipFilter' => [
-            'class' => \yii\filters\IpFilter::class,
-            'allow' => ['127.0.0.1'],
-            'deny' => [],
-        ],
-        'corsFilter' => [
-            'class' => \yii\filters\Cors::class,
-            'cors' => [
-                'Origin' => ['http://localhost:3000'],
-                'Access-Control-Request-Method' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-                'Access-Control-Request-Headers' => ['*'],
-                'Access-Control-Allow-Credentials' => true,
-                'Access-Control-Allow-Headers' => ['Content-Type', 'Authorization'],
-                'Access-Control-Max-Age' => 3600,
-                'Access-Control-Expose-Headers' => ['Content-Type', 'Authorization'],
-                'Access-Control-Allow-Origin' => ['http://localhost:3000'],
-            ],
-        ],
-        'request' => [
-            'class' => 'yii\web\Request',
-            'enableCsrfValidation' => false,
-            'parsers' => [
-                'application/json' => 'yii\web\JsonParser',
-            ],
-            'ipHeaders' => ['X-Forwarded-For', 'X-Real-IP'],
-        ],
         'response' => [
             'class' => 'yii\web\Response',
             'format' => yii\web\Response::FORMAT_JSON,
@@ -159,15 +133,6 @@ $config = [
             ],
         ],
 
-    ],
-    'as access' => [
-        'class' => '\yii\filters\AccessControl',
-        'rules' => [
-            [
-                'allow' => true,
-                'ips' => ['127.0.0.1', '::1'], // Добавляем разрешенные IP адреса
-            ],
-        ],
     ],
     'modules' => [
         'api' => [
