@@ -169,7 +169,7 @@ class AuthController extends Controller
           $refresh_token = Yii::$app->request->headers->get('Authorization');
           $refresh_token = substr($refresh_token, 7);
 
-          $decoded = User::getUserDataFromAccessToken($refresh_token);
+          $decoded = User::getUserDataFromRefreshToken($refresh_token);
 
           $user = User::find()
                ->where(['id' => $decoded->data->user_id])
@@ -199,12 +199,10 @@ class AuthController extends Controller
                          $out['err']['user not saved'] = [
                               $user->getErrors(),
                               $user->errors,
-                              $user->getAttributes(),
                          ];
                     } else {
                          $out['access_token'] = $access_token;
                          $out['refresh_token'] = $refresh_token;
-                         $out['user'] = $user->getAttributes();
                     }
                } else {
                     $user->updateFailedLoginAttempts(false);

@@ -14,7 +14,7 @@ $config = [
     ],
     'components' => [
         'response' => [
-            'class' => 'yii\web\Response',
+            'class' => \yii\web\Response::class,
             'format' => yii\web\Response::FORMAT_JSON,
             'charset' => 'UTF-8',
             'on beforeSend' => function ($event) {
@@ -39,7 +39,7 @@ $config = [
         ],
         // Безопасное управления сеансом А1
         'session' => [
-            'class' => 'yii\web\Session',
+            'class' => \yii\web\Session::class,
             'cookieParams' => [
                 'httponly' => true,
                 'secure' => true,
@@ -49,7 +49,7 @@ $config = [
             ],
         ],
         'request' => [
-            'class' => 'yii\web\Request',
+            'class' => \yii\web\Request::class,
             // Защита от CSRF А2 А4
             'enableCsrfValidation' => true,
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
