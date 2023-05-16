@@ -25,7 +25,7 @@ class NoteController extends ActiveController
         $behaviors['corsFilter'] = [
             'class' => \yii\filters\Cors::class,
             'cors' => [
-                'Origin' => ['http://localhost:3000'],
+                'Origin' => ['http://localhost:3000', 'https://studerus-client.site'],
                 'Access-Control-Request-Method' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
                 'Access-Control-Request-Headers' => ['*'],
                 'Access-Control-Allow-Credentials' => true,

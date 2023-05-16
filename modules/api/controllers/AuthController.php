@@ -28,7 +28,7 @@ class AuthController extends Controller
           $behaviors['corsFilter'] = [
                'class' => \yii\filters\Cors::class,
                'cors' => [
-                    'Origin' => ['http://localhost:3000'],
+                    'Origin' => ['http://localhost:3000', 'https://studerus-client.site'],
                     'Access-Control-Request-Method' => ['POST'],
                     'Access-Control-Request-Headers' => ['*'],
                     'Access-Control-Allow-Credentials' => true,
